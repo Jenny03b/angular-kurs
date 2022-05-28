@@ -1,0 +1,5092 @@
+---------------------------------------------------------------------------
+Kurs Angular - Zacznij Programować - Udemy
+---------------------------------------------------------------------------
+
+https://www.udemy.com/angular-kompletny-kurs-od-podstaw/
+
+---------------------------------------------------------------------------
+Spis Treści:
+---------------------------------------------------------------------------
+
+1.  Update do Angular 6
+2.  Wstęp do kursu
+3.  Przygotowanie środowiska
+4.  Zapoznanie się z TypeScript
+5.  Struktura aplikacji
+6.  Wszystko o komponentach
+7.  Wyświetlanie danych w komponentach
+8.  Proprety binding w Angularze
+9.  Start projektu "Lista zadań"
+10. Interakcja komponentów w Angularze
+11. Projekt "Lista zadań" - podział na komponenty
+12. Stylizacja komponentów
+13. Użycie serwisów w Angularze
+14. Projekt "Lista zadań" - dodanie serwisu i obiektowości
+15. Tworzenie własnych  tyw
+16. Tworzenie własnych pipe
+17. Moduł HTTP
+18. Aplikacja "Lista zadań" - dołączamy bazę danych
+19. Obsługa routingu w Angularze
+20. Projekt "Lista zadań" - dodajemy routing
+21. Formularze template driven
+22. Formularze Reactive Forms
+23. Projekt "Lista zadań" - implementacja formularza
+24. Autoryzacja użytkownika w Angularze
+25. Projekt "Lista zadań" - dodajemy rejestrację użytkowników
+26. Podział aplikacji na moduły
+27. Tworzenie wersji produkcyjnej
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Udemy - Treść kursu
+---------------------------------------------------------------------------
+
+
+1 Update do Angular 6
+
+    1. Co nowego w Angularze 6 5:01
+    2. Update dowolnego projektu do Angular 6 6:54
+    3. Wzmianka o kompatybilności 0:00
+    4. Kompatybilność z kursem biblioteki RxJS 1:24
+    5. Praca z najnowszym RXJS 4:30
+
+2 Wstęp do kursu
+
+    6. Słowem wstępu 2:12
+    7. Dla kogo jest ten kurs? 1:22
+    8. Dlaczego warto zakupić kurs? 1:46
+
+3 Przygotowanie środowiska
+
+    9. Uwagi do instalacji Node.js 0:00
+    10. Instalacja Node.js i Visual Studio Code 2:00
+    11. Angular 6 i Angular CLI - WAŻNE 0:00
+    12. Instalacja Angular CLI 4:00
+
+4 Zapoznanie się z TypeScript
+
+    13. Wstęp do TypeScript 7:26
+    14. Typy danych w TypeScript 5:49
+    15. Funkcje w TypeScript 13:03
+    16. TypeScript i słowo kluczowe "this" 4:26
+    17. Definicja zmiennych za pomocą "var", "let", "const" 7:07
+    18. Interfejsy i klasy w TypeScript 5:44
+    19. Moduły i importy 3:37
+    Test 1: Sprawdzenie wiedzy o TypeScript 0:00
+
+5 Struktura aplikacji
+
+    20. Narzędzie Angular CLI 3:09
+    21. .angular-cli.json zmiana nazwy 0:00
+    22. Budowa struktury projektu 5:09
+    23. @NgModule - AppModule - serce aplikacji 4:28
+    24. Bootstrap aplikacji w main.ts 4:06
+    Test 2: Sprawdzenie wiedzy z działu Struktura aplikacji 0:00
+
+6 Wszystko o komponentach
+
+    25. Wstęp do komponentów 2:21
+    26. Budowa komponentu 2:27
+    27. Tworzenie komponentów 6:25
+    28. Komponenty inline 4:03
+    Zadanie 1: Zadanie z tworzenia komponentu 0:00
+    Test 3: Test wiedzy o komponentach 0:00
+
+7 Wyświetlanie danych w komponentach
+
+    29. Wstęp 1:44
+    30. Interpolacja stringów 6:26
+    31. Użycie pipe '|' 4:25
+    32. Operator question mark '?' 3:18
+    33. Dyrektywa *ngFor 6:23
+    34. Dyrektywa *ngFor i index 2:31
+    35. Dyrektywa *ngIf i użycie <ng-container> 6:15
+    36. Dyrektywa *ngIf; then; else 3:41
+    37. Dyrektywa [ngSwitch], *ngSwitchCase 3:57
+    38. Wyświetlanie danych i drzewo DOM 4:52
+
+8 Proprety binding w Angularze
+
+    39. Data binding - wstęp 4:17
+    40. Bindowanie przez property binding 8:13
+    41. Wywoływanie eventów przez event binding 5:12
+    42. Łączenie property binding i event binding 3:23
+    43. Bindowanie w dwie strony za pomocą two-way binding 3:47
+    Test 4: Test wiedzy o data binding 0:00
+
+9 Start projektu "Lista zadań"
+
+    44. Rozpoczynamy projekt - "Lista zadań" 15:07
+
+10 Interakcja komponentów w Angularze
+
+    45. Interakcja komponentów - wstęp 1:26
+    46. Przesyłanie danych do komponentu - @Input 4:42
+    47. Odbieranie danych z komponentu - @Output 5:29
+    48. Lokalna referencja w widoku HTML z użyciem # 6:20
+    49. Content projection - odbieranie danych w komponencie przez <ng-content> 1:43
+    50. Cykle życia komponentów 13:02
+    Test 5: Test wiedzy o interakcji komponentów 0:00
+
+11 Projekt "Lista zadań" - podział na komponenty
+
+    51. Rozwój aplikacji i podział na komponenty 13:42
+
+12 Stylizacja komponentów
+
+    52. Stylizacja komponentów - wstęp 0:42
+    53. Podmiana stylu przez ngStyle 4:04
+    54. Podmiana klasy stylu przez ngClass 3:58
+    55. Enkapsulacja styli 4:05
+    56. Instalacja Bootstrapa 2:45
+    57. Projekt "Lista zadań" - dodanie Bootstrapa 0:00
+    Test 6: Test wiedzy o stylizowaniu komponentów 0:00
+
+13 Użycie serwisów w Angularze
+
+    58. Serwisy w Angularze - wstęp 1:50
+    59. Tworzenie serwisu 4:14
+    60. Wstrzykiwanie serwisu 4:15
+    61. Jak dokładnie działa serwis 4:24
+    62. Serwis jako singleton 2:53
+    63. Rejestrowanie serwisu w Angular 6 1:23
+    64. Serwisy i biblioteka rxjs 7:34
+    65. Wstrzykiwanie do serwisu 4:26
+    66. Przypadki użycia serwisów 4:15
+    67. Kod źródłowy - serwisy 0:00
+
+14 Projekt "Lista zadań" - dodanie serwisu i obiektowości
+
+    68. Implementacja serwisu w projekcie 17:34
+    69. Refaktoryzacja aplikacji - dodanie klasy Task 7:45
+
+15 Tworzenie własnych dyrektyw
+
+    70. Tworzenie dyrektywy 4:03
+    71. Implementacja pierwszej dyrektywy 5:15
+    72. Użycie @HostListener w dyrektywie - reagowanie na zdarzenia 3:48
+    73. Użycie @Input w dyrektywie - przesyłanie danych do dyrektywy 2:53
+    74. Modyfikacja elementów HTML przez dyrektywę 6:04
+    75. Projekt "Lista zadań" - kod aktualnego projektu po dodaniu dyrektyw 0:00
+
+16 Tworzenie własnych pipe
+
+    76. Tworzenie pipe w Angularze 3:34
+    77. Implementacja pipe 2:45
+    78. Przesyłanie parametrów do pipe 3:27
+    79. Sortowanie za pomocą pipe 4:52
+    80. Pure pipe czym jest i jak to działa 4:48
+    81. Projekt "Lista zadań" - kod aktualnego projektu po dodaniu pipe 0:00
+
+17 Moduł HTTP
+
+    82. Moduł HTTP - wstęp 2:15
+    83. Przygotowanie aplikacji do pracy z HTTP 2:50
+    84. Zapytanie GET 7:35
+    85. Zapytanie GET z parametrem 7:08
+    86. Zapytanie POST 4:19
+    87. Zapytanie PUT 4:28
+    88. Zapytanie DELETE 2:10
+    89. Zapytanie PATCH 3:13
+    90. Obsługa błędów w HTTP 3:43
+    91. Konfigurowanie zapytań HTTP 6:19
+    92. Użycie async pipe z observable 3:30
+    93. Obsługa błędów przy async pipe 4:32
+    94. Jak wykorzystać HttpInterceptor 5:24
+    95. Modyfikacja zapytania z pomocą HttpInterceptor 6:09
+    96. Przykłady z lekcji o HTTP 0:00
+
+18 Aplikacja "Lista zadań" - dołączamy bazę danych
+
+    97. Użycie MongoDB w chmurze mLab 3:10
+    98. Modyfikacja klasy Task pod nową strukturę danych 4:37
+    99. Refaktoryzacja TaskService 5:58
+    100. Usuwanie zbędnego kodu z aplikacji 2:26
+    101. Dokumentacja API, czyli jak dokładnie działa nasz back-end 5:16
+    102. Wykonujemy zapytanie GET i pobieramy zadania 4:33
+    103. Zapisywanie zadań w bazie MongoDB 3:17
+    104. Kontynuujemy zapis zadań w bazie MongoDB 4:13
+    105. Ostanie poprawki po przebudowie aplikacji 5:06
+    106. "Lista zadań" - kod aplikacji po dodaniu bazy danych 0:00
+
+19 Obsługa routingu w Angularze
+
+    107. Wprowadzenie do routingu 2:23
+    108. Stworzenie modułu routingu 5:29
+    109. Podpięcie routingu w aplikacji z użyciem routerLink 4:30
+    110. Obsłużenie strony "page not found" 3:39
+    111. Przygotowanie przykładu pod rozbudowę routingu 5:10
+    112. Rozszerzenie routingu o child rout 8:29
+    113. Ponowne użycie rout child 5:57
+    114. Nawigacja po aplikacji przez Router 4:39
+    115. Stylizowanie linków w routingu 2:19
+    116. Kod aplikacji z nauki routingu 0:00
+
+20 Projekt "Lista zadań" - dodajemy routing
+
+    117. Przebudowa aplikacji pod routing 9:20
+    118. Projekt "Lista zadań" - kod aktualnego projektu po routingu 0:00
+
+21 Formularze template driven
+
+    119. Template driven vs Reactive forms 0:00
+    120. Template driven - wstęp 3:50
+    121. Użycie ngModel w formularzu 5:25
+    122. Dostęp do formularza przez ngForm 3:55
+    123. Sprawdzenie poprawnego wypełnienia formularza 4:58
+    124. Udoskonalenie walidacji formularza 7:28
+    125. Walidowania pola e-mail 2:44
+    126. Implementacja pola <select> 4:09
+    127. Implementacja radio button 2:49
+    128. Obsługa formularza po wysłaniu - reset 5:11
+    129. Kod przykładowej aplikacji z nauki Template Driven Forms 0:00
+
+22 Formularze Reactive Forms
+
+    130. Przygotowanie do Reactive Forms 3:11
+    131. Używamy obiektu FormsGroup 2:48
+    132. Bindowanie FormsGroup z widokiem HTML 3:13
+    133. Zapis danych z formularza 4:39
+    134. Walidacja formularza w Reactive Forms 3:05
+    135. Obsługa błędów walidacji w HTML 5:07
+    136. Używamy FormArray 6:23
+    137. Dynamiczne dodawanie kontrolek za pomocą FormArray 2:51
+    138. Tworzenie własnego walidatora 7:52
+    139. Resetowanie formularza 5:10
+    140. Nadsłuchiwanie zmian w formularzu 2:39
+    141. Kod z przykładowej aplikacji z nauki Reactive Forms 0:00
+
+23 Projekt "Lista zadań" - implementacja formularza
+
+    142. Implementujemy Reactive Forms w aplikacji "Lista zadań" 6:58
+    143. Dynamiczne dodawanie pól 3:57
+    144. Pobieranie wartości z pól 5:14
+    145. Ostatnie poprawki 1:54
+    146. Projekt "Lista zadań" - kod aktualnego projektu po Reactive Forms 0:00
+
+24 Autoryzacja użytkownika w Angularze
+
+    147. Użycie JWT do autentykacji i autoryzacji użytkownika 0:00
+    148. Przygotowanie Firebase do rejestracji i logowania użytkowników 5:28
+    149. Tworzymy formatkę do logowania 6:06
+    150. Implementujemy serwis obsługujący logowanie i rejestrację 5:20
+    151. Implementujemy proces rejestracji 4:50
+    152. Implementujemy proces wylogowania 3:45
+    153. Implementujemy proces logowania 2:56
+    154. Zarządzanie stanem aplikacji 8:16
+    155. Sterowanie dostępem za pomocą canActivate 7:02
+    156. Sterowanie dostępem za pomocą canActivateChild 6:17
+    157. Mały trik z routingiem :) 6:24
+    158. Kod przykładowej aplikacji z nauki autoryzacji użytkownika 0:00
+
+25 Projekt "Lista zadań" - dodajemy rejestrację użytkowników
+
+    159. Rejestracja użytkowników przez Firebase 14:06
+    160. Obsługa wielu użytkowników 5:49
+    161. Testowanie i bug fixing 6:45
+    162. Projekt "Lista zadań" - kod aktualnego projektu po rejestracji użytkownika 0:00
+
+26 Podział aplikacji na moduły
+
+    163. Pierwszy moduł i zastosowanie barrel 10:07
+    164. Wydzielenie routingu do oddzielnego modułu 6:30
+    165. Shared Module dla wspólnych komponentów 7:05
+    166. Kod aplikacji do ćwiczeń 0:00
+    167. Wydzielenie kolejnego modułu w ramach ćwiczeń 5:04
+    168. Działanie serwisów w modułach 6:24
+    169. Kod aplikacji po podziale na moduly 0:00
+    170. Ładowanie modułu przez Lazy Loading 11:18
+    171. Kod aplikacji lazy loading 0:00
+    172. Zabezpieczenie routingu w Lazy Loading 4:44
+    173. Zachowanie serwisów przy Lazy Loading 3:16
+    174. Preloading modułów z wykorzystaniem Lazy Loading 5:03
+
+27 Tworzenie wersji produkcyjnej
+
+    175. Kompilacja Just-in-Time vs. Ahead-of-Time 5:37
+    176. Wykorzystanie pliku environment przy budowaniu projektu 7:04
+    177. Budowanie i deploy aplikacji na hosting Firebase 
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Odc 1.1 Update do Angular 6
+---------------------------------------------------------------------------
+Aplikacje mobilne - framework ionic
+Przykład:
+https://www.youtube.com/watch?v=qs2n_poLarc
+
+Odc 1.2
+----
+
+Odc 1.3
+----
+
+
+---------------------------------------------------------------------------
+Odc 2.4 Wstęp do kursu
+---------------------------------------------------------------------------
+Instalacja node.js
+Instalacja Visual Studio Code
+Dodatki do VS :
+- Angular Extension Pack
+
+Odc 2.5
+---------------------------------------------------------------------------
+ Tesk
+ 
+Odc 2.6
+---------------------------------------------------------------------------
+Sprawdzenie wersji node.js w konsoli: node -v
+npm - menadżer pakietów
+sprawdzanie wejsji: npm -v
+
+Instalacja narzędzia - angular CLI globalnie:
+npm install -g @angular/cli
+
+Generowanie nowego projektu:
+ng new [nazwa projektu] 
+
+należy wejść do nowego projektu w konsoli: cd c:/www/[nazwa projektu]
+
+uruchamianie aplikacji w konsoli:
+ng serve
+
+zeby odrazu otworyc strone w przegladarce domyślenej nalezy  dodac dopisek --open:
+ng serve --open
+
+
+---------------------------------------------------------------------------
+Odc 3.7 Przygotowanie środowiska
+---------------------------------------------------------------------------
+TypeScript jest SuperSetem, nadzbiorem JavaScriptu. 
+Powstał po to zeby ułatwić ludziom zycie z js.
+https://www.typescriptlang.org/
+Na stronce jest dokumentacja i kompuilator pokazujacy odrazu ts na js
+
+Instalowanie TypeScript:
+npm install -g typescript
+
+tworzenie katalogo w konsoli:
+mkdir [nazwa folderu]
+
+Tworzenie dokunetu w TS 
+prosty kod
+
+Kompilowanie kodu z TS na JS
+wchodzimy do folderu i wpisujmy w konsole:
+tsc hello.ts
+generowany jest plik hello.js
+
+podpinamy do pliku html plik hello.js
+nie da sie otworzyc w pzegladarce pliku z ts
+
+da sie odpalić kompilator w formie wachera tsc hello.ts -w
+teraz po kazdym zapisaniem kodu kompilator sam przekompiluje plik
+
+wyłączenie pracy kompilatora ctrl + c
+
+debagowanie w konsoli po pliku js i ts. po zastosowanie polecenie, 
+mamy dostep z przegldarki-konsoli dostep do pliku ts
+tsc hello.ts -w --sorcemap
+
+
+Odc 3.8
+---------------------------------------------------------------------------
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+w Angularze prawie wszystko skalda sie z klas w ts.
+Implementacja:
+nazwa: typ;
+nazwa = 'abc';
+
+nie trzeba dawać typu obowiazkowo.
+
+tablice
+color: string[];
+color: string[] = ['czarny', 'biały'];
+dates: Array<Date> = [new Date(), new Date()];
+
+tuple - krotka
+pair: [string, number] = ['poniedziałek', 1];
+
+any - typ do którego mozemy przypisać wszystko
+xyz: any = 222;
+
+
+Odc 3.9
+---------------------------------------------------------------------------
+implementacja kasy i funkcji
+
+############################################
+class PrzykładowaKlasa {
+	msg: string = 'Hello World';
+	
+	showMsg() {
+		console.log(this.msg);
+	}
+	
+	hello(): string {
+		return 'Witaj swiecie';
+	}
+	
+	hello1(message?: string) {
+	console.log(message);
+	}
+	
+	hello2(message: string, message2 = 'hello') {
+		console.log(message + ' ' + message2);
+	}
+}
+
+var przyk = new PrzykładowaKlasa();
+przyk.showMsg();
+console.log(przyk.hello());
+przyk.hello1('Witaj swiecie');
+przyk.hello2('Witaj', 'swiecie');
+############################################
+
+Za pomocą this. odwołujemy sie do pola w bierzącej klasie.
+
+instancje klasy tworzymy za pomocą new
+
+Zwracany tym przez metode możemy określić, ale mie musimy. 
+przyklad metoda hello()
+nie zwacajace nic metody - typ void
+nie musimy tego robic, ale kod jest czytelniejszy
+
+Przyjmowane argumenty przez metode umieszczamy w nawiasach, 
+mozemy dodać ich typy
+Mozliwe jest dodanie parmetru jako opcjonalny,
+nalezy odać znak zapytania po nazwie:
+message?: string
+
+można rówmież dodac parametru opcjonalnego wartość:
+message = hello
+zostanie ona uzyta, chyba ze
+przekaza zostanie ta wartość do metody.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+funkcje anominowe - (funkcje strzałkowe)
+funkcje które nie maja nazwy
+
+Arrow Functions. Lovingly called the fat arrow 
+(because -> is a thin arrow and => is a fat arrow) 
+and also called a lambda function (because of other languages).
+
+hello4 = message => console.log('Witaj świecie, ' + message);
+
+hello4 - nazwa zmiennej
+message - argument, parametr
+po strzałce => ciało metody
+
+da sie wywołac bez parametru:
+
+hello5 = () => console.log('Witaj świecie');
+
+da sie dodać typ parametru oraz typ zwracany:
+
+hello6 = (message: string): string => { return 'Witaj świecie' };
+
+https://basarat.gitbooks.io/typescript/docs/arrow-functions.html
+
+
+
+Odc 3.10
+---------------------------------------------------------------------------
+słowo kluczowe this
+
+aby uruchomic program w konoli:
+tsc program.ts
+node Program.js
+
+########################################################
+class Program {
+	msg: string = 'Hello World';
+
+	printFunction() {
+		return function () {
+			console.log(this.msg)
+		}
+	}
+	
+		printFunction2() {
+		return () => {
+			console.log(this.msg)
+		}
+	}
+}
+
+var example = new Program();
+
+var fun = example.printFunction();
+fun();
+
+var fun2 = example.printFunction2();
+fun2();
+########################################################
+
+pierwsza funkcja printFunction nie ma dostepu do msg, druga tak
+przyklad użycia f anonimowej
+wywołanie funkcji w funkcji
+
+
+Odc 3.11
+---------------------------------------------------------------------------
+let, const, var
+
+var
+znane z js
+var nie ogranicz zasiegów ( jest dosepna poza nawiasami {})
+i pozwala na tworzenie zmiennych o tej samej nazwie
+
+let
+let ogranicza zasiegi do {} 
+i nie pozwala na utworzenie zmiennej o tej samej nazwie
+
+const 
+nie da sie zmienic wartości która zostanie przypisana poraz pierwszy
+
+
+Odc 3.12
+---------------------------------------------------------------------------
+Klasy i interfajsy
+
+klasa
+była juz uzywana wczesniej. moze miec pola, funkcje i konstruktor
+konstruktor moze przyjmować parametry
+podczas tworzenie obiektu klasy nie trzeda podawac parametrów jeśli 
+nawet jest zdefiniowany konstruktor z prarametrami
+
+klasa może definować interfejsy
+
+
+interface
+definiuje głównie pola, moga metody (bez ciała oczywiście)
+(interfejs to obiekt json owy)
+(interfejsy używa się głownie do mapowania json na obiekty w angulare)
+
+##############################################################
+interface Dog {
+	name: string;
+	age: number;
+	color: string;
+	date?: Date;
+}
+
+let dog: Dog = ({
+	name: 'Reksio',
+	age: 5,
+	color: 'szary'
+});
+
+console.log(dog);
+console.log(dog.name);
+##############################################################
+
+Odzworowanie jsona (przychodzacego np z zapytania http) na interfejs
+(json to format tekstowy)
+
+##############################################################
+let json = '{"name": "Max", "age": "4","color": "black","date": "2017-12-31"}';
+let myDog: Dog = JSON.parse(json);
+##############################################################
+
+
+Odc 3.13
+---------------------------------------------------------------------------
+Moduły i impory
+
+klasy maja zasieg ( możliwy dostęp) tylko w pliku w którym sie znajdują
+aby były widoczne globalnie nalezy dodać dodac przed dopisek "export"
+identycznie moża zrobc z np stałymi.
+
+export class PrzykladowaKlasa { ... }
+export const Pi = 3.14;
+
+jezeli chcemy uzyc klasy exportowanej nalezy dodać import
+
+import { PrzykladowaKlasa } from "./models"
+(...)
+let przy = new PrzykladowaKlasa();
+
+można również zrobic import całego folderu:
+
+import * as models from "./models"
+(...)
+let przy2 = new models.PrzykladowaKlasa2();
+
+stała
+let pi = models.Pi;
+
+
+---------------------------------------------------------------------------
+Odc 4.14
+---------------------------------------------------------------------------
+Angular Cli tworzy gotowy szablon projektu
+otwarcie konsoli w Vs Code:
+ctrl + ` (tylda)
+
+generowanie nowego projaktu i odpalenie servera
+Powstanie folder o nazwie projektu z wszystkimi potrzebnymi plikami i strukturą
+
+ng new Nazwa-Projektu
+cd Nazwa-Projektu
+ng serve
+
+możliwe jest odpalenie dwóch serverow naraz, ale trzeba użyć polecenia:
+ng serve --host 0.0.0.0 --port 4201
+
+aby otworzyc projekt wchodzimy w adress:
+localhost:4200
+
+
+Odc 4.15
+---------------------------------------------------------------------------
+tworzenie nowego komponentu:
+ng generate component Nazwa-komponentu
+
+mozna skrótowo
+ng g c Nazwa-komponentu
+
+identyczny sposób do tworzenia servisów, modeli itd
+
+budowanie aplikacji:
+ng build
+
+właczenie testów jednostkowych:
+ng test
+
+uruchamianaie testów koncowych:
+ng e2e
+
+Katalogi:
+
+e2e
+Opisuje testy końcowe
+
+node_modules
+zawiera wszystkie moduły potrzebne do działania projektu
+Zaciagane są za pomocą package.jscon ( plik w folderze główny )
+plik package-lock.json zawiera faktycznie zaciagniete wersje 
+modułów do node_modules
+
+folder src
+serce aplikacji, tutaj powstaje kod aplikacji
+
+w foldere app znajduja sie komponenty
+app.component.ts to komponent startowy aplikacji
+
+folder assets
+wrzucamy tam pliki graficzne 
+
+folder enviironments
+znajdują sie tutaj pliki służce do konfiguracji wersji produkcyjnej albo
+wersji developerskiej
+
+plik index.html
+odpowiedzialny za uruchamianaie apki
+
+plik main.ts
+uruchamia aplikacje angularową
+
+plik style.css
+globalne style dla apki  
+
+plik .angular-cli.json
+plik konfiguracyjny aplikacji
+zawiera m.in. nazwe aplikacji, katalog główny, dodatkowe katalogi,
+katalogi stylów, skrypty itd.
+
+plik larma.conf.js
+plik do testowania apki
+
+plik tslint.json
+plik sprawdza czy nasz kod w TS jest prawidłowy
+
+plik tsconfig.json
+okresla w jaki sposób TS bedzie używany w apce
+
+
+Odc 4.16
+---------------------------------------------------------------------------
+w app.module.ts znajduje sie @NgModule
+znajdują sie w nim informacje o wszytkich komponentach, serwisach,
+dyrektywach jakie zostały stworzone w apce
+
+w tablicy declarations mamy wpisane wszystkie komponenty uzywane w apce
+dodatkowo komponenty o podanej nazwie są zaimportowane u góry
+dodaje sie tam również używane pipe'y i dyrektywy
+
+w tablicy bootstrap znajduje sie moduł startowy aplikacji
+Appcomponent będzie uzyty do wystrtowania aplikacji,
+jeśli chcemy inny, wystarczy go podminić
+Można użyc wiecej componnetów, ale startowy jest zazwyczaj jeden
+
+
+kolejna sekcja to imports
+znajdują sie tutaj moduły używane w apce
+znajduje sie tutaj startowo moduł BrowseModule odpowiedzalny za uruchomienie 
+aplikacji w przegladarce
+
+w providers dodajemy używane serwisy
+
+
+Odc 4.17
+---------------------------------------------------------------------------
+bootstrap - Startowanie Aplikacji 
+plik app.module.ts jest exportowany nazewnatrz po to aby mogł zostac
+uzyty w pliku main.ts 
+main.ts jest plikiem startowym, który uruchamia sie pierwszy w aplikacji 
+
+w pliku index.html znajduje sie zapis <app-root></app-root>
+jest to selektor z komponentu app.component.ts wskazujacy na niego
+
+w miejscu tego selektora zostanie wygenerowany html znajdujący sie w pliku 
+app.component.html
+ 
+
+---------------------------------------------------------------------------
+Odc 5.18
+---------------------------------------------------------------------------
+Czym jest Komponent:
+-komponent posiada dekorator @Component
+-z komponentów budowana jest aplikacja Angularowa
+-komponent musi być przypisany do NgModule aby mógł być uzywany
+-komponent jest powiazany z plikami htmp i css
+-w komponencie znajduje sie logika za wyświetlanie danych w html
+-komponent posiada selektoe np <app-root>
+
+Komponenty zagnieżdzamy w sobie (drzewo komponentów)
+
+
+Odc 5.19
+---------------------------------------------------------------------------
+Budowa typowego komponentu
+
+AppComponent to zwykła klasa Typescript'owa opatrzona dekoratorem - @Component
+dekorator ten posiada wlaściwości:
+-selector  - nazwa uzywana w tagach html gdzie ma zostać wyświetlony component
+-templateUrl - gdzie znajduje sie html componentu
+-styleUrls   - gdzie znajduje sie plik z stylami componentu
+
+gdy użyjemy ng serve projekt zostaje automatycznie przebudowany gdy zapiszemy
+zmiany w plikach
+
+
+Odc 5.20
+---------------------------------------------------------------------------
+w pliku README.md mamy mała ściąge z poleceniami konsolowymi
+
+tworzenie własnego kompoentu:
+ng generate component test
+
+komponent powstał w katalogu src -> app -> test
+dodany został nowy folder o takiej samej nazwie i zawierajacy ten komponent
+
+w componencie powstał selektor app-test
+mozna zmienic dodawany przedrostek selekta w pliku .angular-cli.json w 
+"apps" -> "prefix": "app"
+w aplikacji nie mogą sie powtórzyć takie same slelektory
+
+automatycznie dodawany jest też plik test.component.spec.ts
+plik słucy do testowania komponentu
+mozna utworzyc komponent odrazu bez niego:
+ng generate component test2 --spec false
+
+można użuwać aliasóww niektórych poleceń:
+ng g c test3
+
+mozna wygenerowac komponent bez tworzenia dodatkowego folderu, 
+komponent zostanie dodany do katalogu głównego
+ng g c --flat true
+
+https://github.com/angular/angular-cli/wiki
+
+Komponenty są automatycznie dopisywane do @NgModule -> declarations
+bez tego sie sypnie, w konsoli napisz ze amy sprawdzic czy jest w @Ngmodule
+
+Dodajać można kilka tych samych selektorów w jednym html, 
+zostana wyświetlkone komponenty pilkukrotnie
+
+
+Odc 5.21
+---------------------------------------------------------------------------
+component in line
+w komponencie można zmienic wlaściwość templateUrl na template
+możemy teraz w uszach `` wkleić kod html, zamiast dodawania html z pliku
+
+tak samo możemy zrobić z styleUrls na style i możemy dodać w tablicy [''] style
+momemy usunąc tliki css i html i nic sie teraz nie stanie
+moze to byc potrzebne, gdy komponen bedzie odpowiedzialny jedynie za 
+załadowaie innego/ innych komponentów
+
+konsola:
+ cd c://www
+ cd.. cofnij kalalog
+ cd\ katalog główny
+ dir pokaż zawartość folderu
+ mkdir tworzenie katalogu
+ code . otwarcie katalogu w visual studio code
+
+
+---------------------------------------------------------------------------
+Odc 6.22
+---------------------------------------------------------------------------
+Wyświetlanie danych
+- interpulacja stringów - {{name}}
+- dyrektywa *ngFor
+- Wyświetlanie warunkowe *ngIf
+
+
+Odc 6.23
+---------------------------------------------------------------------------
+w komponencie
+###########################################################################
+export class AppComponent {
+	title = 'witaj w kursie angulara!';
+	pi = Math.PI;
+	date = new Date();
+
+	dog = new Dog('reksio', 4);
+
+	showdog() {
+		return 'Moj pies to' + this.dog.name + ' i ma lat: ' + this.dog.age;
+	} 
+}
+
+class Dog {
+	constructor(public name: string, public age: number) {}
+}
+###########################################################################
+
+w html
+###########################################################################
+<p>
+	{{title}} <br>
+	{{pi}} <br>
+	{{date}} <br>
+	{{dog.name}} - {{dog.age}} <br>
+	{{showdog()}}
+	
+	{{2+2}}
+</p>
+###########################################################################
+
+
+Odc 6.24
+---------------------------------------------------------------------------
+pipe |
+
+{{title | uppercase}} - Tytuł bedzie duzymi literami
+{{pi | number: '1.1-2'}} -> 3.14
+{{date | date: 'dd-MM-yy'}}
+
+Pipe tez dzialaja na wynikach funkcji
+
+
+Odc 6.25
+---------------------------------------------------------------------------
+Operator question mark '?'
+
+jezeli bedzie taka wytuacja ze bedziemy sie odwoluywać do obiektu który 
+jest pusty, np {{dog.name}} wywali bład w konsoli i nie wyświetli nic dla 
+tego pola w html
+
+zeby uniknąc błedów w konsoli możeby dodac ? :
+{{dog?.name}}
+
+można użyć również {{dog && dog.name}}
+sprawdza czy jes obiekt dog utwozony, jesli tak to wyświetla
+
+
+Odc 6.26
+---------------------------------------------------------------------------
+dyrektywa*ngFor (html)
+
+w komp:
+days: string[] = ['Poniedziałek', 'Wtorek', 'sroda', (...)];
+
+w html:
+ręcznie:
+{{days[0]}}
+{{days[1]}}
+(...)
+
+mozna użyć *nfFor :
+
+<li *ngFor="let day of days">
+	{{day}}
+</li>
+
+inny przykład:
+w klasie komponentu:
+
+dogs = new Array<dog>;
+
+constructor() {
+	this.dogs.push(new Dog('reksio', 4), new dog('szarik', 2), (...);
+}
+
+w html:
+<li *ngFor="let dog of dogs">
+	{{dog.name}} - {{dog.age}}
+</li>
+
+
+Odc 6.27
+---------------------------------------------------------------------------
+uzywanie indexu
+
+<li *ngFor="let dog of dogs; let i = index">
+	{{i}} - {{dog.name}} - {{dog.age}}
+</li>
+
+zaczyna sie od zera, mozemy dodać zeby startował od 1 - {{i + 1}}
+
+mozmy sie odwołac również do liczb parzystych:
+let i = event;
+
+nieparzystych:
+let i = odd;
+
+do indexu pierwszego:
+let i = first;
+
+do ostatniego:
+let i = last;
+
+Mozna generowac komponenty za pomocą *ngFor:
+<app-nowy *ngFor="let i of [1, 2, 3, 4]"></app-nowy>
+
+i wyświetli go 4 razy
+
+
+Odc 6.28
+---------------------------------------------------------------------------
+dyrektywa *ngIf i użycie <ng-container>
+
+możeby użyć *ngIf do wyświetlania, lub nie wybranego kawałku html
+w przykładzie pokaza sie tylko parzyste numery z tablicy
+
+<p *ngFor="let day of days; let e = event">
+	<li *ngIf="e">
+		{{day}}
+	</li>
+</p>
+
+Mozymey sprawszac np długośc tablicy i jesli jest wieksz od zer to wyswietlac
+
+<div *ngIf="days.length > 0">
+	(...)
+</div>
+
+Mozemy wyswitlic np psy starcze nic 3 lata
+
+<li *ngFor="let dog of dogs">
+	<div *ngIf="dog.age > 3">
+		{{dog.name}} - {{dog.age}}
+	</div>
+</li>
+
+z tymi dyrektywami warto używać <ng-container>
+dodatkowy np <div> robi zamieszanie w kodzie
+konstrukcji  <ng-container> nie dotycza style i mozeby na nim 
+operować bez rozwalenia html w widou
+
+
+Odc 6.29
+---------------------------------------------------------------------------
+*ngIf; then; else
+
+Mozemy zrobic tak żeby gdy lista jest pusta to w tedy wyświeltli 
+sie jakiś tekst
+
+<div *ngIf="dogs.length > 0; else noDogs">
+	<li *ngFor="let dog of dogs">
+		{{dog.name}} - {{dog.age}}
+	</li>
+</div>
+
+<ng-template #noDogs>
+	<p> Piesków nie ma </p>
+</ng-template>
+
+Można to zrobić inaczej:
+
+<div *ngIf="dogs.length > 0; then areDogs; else noDogs"></div>
+
+</ng-template #areDogs>
+	<li *ngFor="let dog of dogs">
+		{{dog.name}} - {{dog.age}}
+	</li>
+</ng-template>
+
+<ng-template #noDogs>
+	<p> Piesków nie ma </p>
+</ng-template>
+
+div odpowiada tylko za przetworzenie if'a i pózniej sie 
+wyświetla areDogs lub noDogs
+
+
+Odc 6.30
+---------------------------------------------------------------------------
+dyrektywa [ngSwitch], *ngSwitchCase
+
+W kontrolerze mamy tabele stringów z dniami tygodnia, 
+możemy zmienic wyświetlna dene za pomocą [ngSwitch]
+jezeli niedziela nie pasuje do zadego to wyświetli ją w *ngSwitchDefault
+
+<div *ngFor="let day of days">
+		<div [ngSwitch]="day">
+			<div *ngSwitchCase="Poniedziałek">Montag</div>
+			(...)
+			<div *ngSwitchCase="Sobota">Samstag</div>
+			<div *ngSwitchDefault>Sontag</div>
+		</div>
+</div>
+
+
+Odc 6.31
+---------------------------------------------------------------------------
+*ngIf vs hidden
+uzycie *ngIf wycina hawałek kodu z html jesli jest np false
+hidden zaś ukrywa zawartośc w widoku, ale w html jest kod widoczny dalej
+
+hidden dzila szybciej, ale cały czas sa widoczne w kodzie
+
+
+---------------------------------------------------------------------------
+Odc 7.32
+---------------------------------------------------------------------------
+Data binding
+-Property Binding - [target]="expression"  - komunikacja z komponentu do html
+-Two-Way-Binding  -[(target)]="expression" - komunikacja w dwie strony
+-Event Binding    - (target)="expression"  - komunikacja z widoku do komponentu
+
+Data binding słuzy do przesyłania danych poniedzy widokiem a komponentem
+Przedstawione nawiasy używamy w widoku
+
+nawiasy kwadraowe [] służą do przekazywania danych z kontrolera do widoku
+nawiasy oragłe () służa do przekazywania danych do kontrolera z widoku
+nawiasy  połaczone słyża do presyłania danych w dwie strony,
+przesłane dane do kkomponentu mogą odrazu zostać wyświetlkone w widoku
+
+
+w komponencie:
+###########################################################################
+export class AppComponent {
+	inputText = 'pole tekstowe';
+	inputText2Way = '';
+	button = true;
+	showClick = '';
+	
+	click(event) {
+		this.showClick = 'Przycisk Aktywny';
+		this.button = false;
+	}
+}
+###########################################################################
+
+w widoku:
+###########################################################################
+<h3> Angular kurs - property binding </h3>
+<div>
+	<input [value]="inputText">
+</div>
+<div>
+	<input [(ngModel)]="inputText2Way">
+	{{inputText2Way}}
+</div>
+<div>
+	<input (click)="click($event)">
+	<button [disabled]="button">Dodaj</button>
+	{{showClick}}
+</div>
+###########################################################################
+
+
+Odc 7.33
+---------------------------------------------------------------------------
+Bindowanie przez property binding
+
+###########################################################################
+export class AppComponent {
+  inputText = 'tekst';
+  maxLengt = 5;
+  colorClass = 'color';
+  logoUrl = '';
+
+  isDisable = true;
+
+  constructor() {
+    setTimeout(() => {
+      this.isDisable = false;
+    }, 3000);
+  }
+
+  change() {
+    this.inputText = 'zmiana tekstu i koloru';
+    this.maxLengt = 10;
+    this.colorClass = 'color2';
+    this.logoUrl = 'https://angular.io/assets/images/logos/angular/angular.png';
+  }
+}
+###########################################################################
+
+###########################################################################
+<h3 [className] ="colorClass">Angular kurs - property binding</h3>
+<img [src]="logoUrl">
+<input [maxLength]="maxLengt" [value]="inputText">
+<button [disabled]="isDisable" (click)="change()">Dodaj</button>
+
+###########################################################################
+
+###########################################################################
+.color {
+  color: blue
+}
+
+.color2 {
+  color: red
+}
+###########################################################################
+
+
+Odc 7.34
+---------------------------------------------------------------------------
+
+###########################################################################
+<h3 [className] ="colorClass">Angular kurs - property binding</h3>
+
+<input [disabled]="isDisable" (focus)="onFocus()"><br>
+<input [disabled]="isDisable" (click)="onClick($event)"><br>
+<input [disabled]="isDisable" (mousemove)="onMouseMove($event)"><br>
+x : {{x}}, y: {{y}}<br>
+<input [disabled]="isDisable" (paste)="onPaste()"><br>{{inputText}}
+
+<button (click)="change()">Zmiana</button>
+###########################################################################
+
+###########################################################################
+export class AppComponent {
+  inputText = '';
+  colorClass = 'color';
+  isDisable = true;
+  x = '';
+  y = '';
+
+  constructor() {
+  }
+
+  onFocus() {
+    this.colorClass = 'color2';
+  }
+  onClick(event) {
+    console.log(event);
+  }
+  onMouseMove(event) {
+    console.log('x: ' + event.clientX + ', y: ' + event.clientY);
+	this.x = event.clientX;
+    this.y = event.clientY;
+  }
+  onPaste() {
+    this.inputText = 'Nie wklejaj!';
+  }
+
+  change() {
+    this.isDisable = false;
+  }
+}
+###########################################################################
+
+
+Odc 7.35
+---------------------------------------------------------------------------
+
+###########################################################################
+<h3>Angular kurs - property binding</h3>
+
+<p>Ten Pracownik to {{professon}}, a jego umiejetnosc to {{skill}}</p>
+
+<label for="male">Zawod</label>
+<input [value]="professon" (input)="saveP($event)"><br>
+
+<label for="male">Umiejetnosc</label>
+<input [value]="skill" (input)="saveS($event)"><br>
+###########################################################################
+
+###########################################################################
+export class AppComponent {
+
+  skill = 'angular';
+  professon = 'programista';
+  constructor() {
+  }
+
+  saveP(event) {
+    this.professon = event.target.value;
+  }
+
+  saveS(event) {
+    this.skill = event.target.value;
+  }
+}
+###########################################################################
+
+
+Odc 7.36
+---------------------------------------------------------------------------
+Żeby używać Two-Way-Binding musimy dodać do app.module.ts FormsModule
+Dodajemy go do imports: []  i dodajemy import u góry
+
+Kod z poprzedniego odcinka możemy zmienic szybko na krótsza wersje:
+###########################################################################
+<h3>Angular kurs - property binding</h3>
+
+<p>Ten Pracownik to {{professon}}, a jego umiejetnosc to {{skill}}</p>
+
+<label for="male">Zawod</label>
+<input [(ngModel)]="professon"><br>
+
+<label for="male">Umiejetnosc</label>
+<input [(ngModel)]="skill"><br>
+
+###########################################################################
+
+###########################################################################
+export class AppComponent {
+
+  skill = 'angular';
+  professon = 'programista';
+  constructor() { }
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 8.37
+---------------------------------------------------------------------------
+
+###########################################################################
+.container {
+  display: flex; justify-content: space-around;
+}
+###########################################################################
+
+###########################################################################
+<div>
+  <div class="container">
+    <div>
+      <input [(ngModel)]="newTask">
+      <button (click)="add()">Dodaj</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      Lista zadań
+      <ng-container *ngIf="tasksList.length > 0; else noTask">
+        <ul>
+          <li *ngFor="let t of tasksList;">
+            {{t}}
+            <button (click)="remove(t)">Usuń</button>
+            <button (click)="done(t)">Zrobione</button>
+          </li>
+        </ul>
+      </ng-container>
+      <ng-template #noTask>
+        <p>Brak zadań, masz czas wolny!</p>
+      </ng-template>
+    </div>
+
+    <div>
+      Wykonane zadania: {{taskDone.length}}
+      <ul>
+        <li *ngFor="let t of taskDone;">
+          {{t}}
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+###########################################################################
+
+###########################################################################
+export class AppComponent {
+
+  newTask: string;
+  tasksList: Array<string> = [];
+  taskDone: Array<string> = [];
+
+  constructor() { }
+
+  add() {
+    this.tasksList.push(this.newTask);
+    this.newTask = '';
+  }
+
+  done(task: string) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+    this.taskDone.push(task);
+  }
+
+  remove(task: string) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+  }
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 9.38
+---------------------------------------------------------------------------
+Interakcja komponentów
+
+Parent component (rodzic) --( @Input )--> Child component (dziecko)
+Child component (dziecko --( @Output )--> Parent component (rodzic)
+
+Odc 9.39
+---------------------------------------------------------------------------
+@Input (dekorator)
+Przesyłanie danych z Appcomponent do ChildComponent
+
+Appcomponent html:
+###########################################################################
+<app-child [tasks]="tasksList"></app-child>
+###########################################################################
+
+
+AppComponent ts:
+###########################################################################
+export class AppComponent {
+
+tasksList = ['Sprzątanie', 'Gotowanie', 'Nauka angulara'];
+
+  constructor() { }
+
+}
+###########################################################################
+
+
+ChildComponent html:
+###########################################################################
+<ul>
+<li *ngFor="let task of tasks">
+  {{task}}
+</li>
+</ul>
+###########################################################################
+
+
+ChildComponent ts:
+###########################################################################
+export class ChildComponent implements OnInit {
+
+  @Input()
+  tasks;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+###########################################################################
+
+
+Odc 9.40
+---------------------------------------------------------------------------
+@Output (dekorator)
+Przesyłanie z ChildComponent do AppComponent
+
+Appcomponent html:
+###########################################################################
+<app-child [tasks]="tasksList" (eventTask)="selected($event)"></app-child>
+
+<ul>
+  <li *ngFor="let task of childTasks">
+    {{task}}
+  </li>
+</ul>
+###########################################################################
+
+
+AppComponent ts:
+###########################################################################
+export class AppComponent {
+
+  tasksList = ['Sprzątanie', 'Gotowanie', 'Nauka angulara'];
+
+  childTasks = [];
+
+  constructor() { }
+
+  selected(task: string): void {
+    this.childTasks.push(task);
+  }
+
+}
+###########################################################################
+
+
+ChildComponent html:
+###########################################################################
+<ul>
+<li *ngFor="let task of tasks">
+  {{task}}
+  <button (click)="select(task)">Zaznacz</button>
+</li>
+</ul>
+###########################################################################
+
+
+ChildComponent ts:
+###########################################################################
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  templateUrl: './child.component.html',
+  styleUrls: ['./child.component.css']
+})
+export class ChildComponent implements OnInit {
+
+  @Input()
+  tasks;
+
+  @Output()
+  eventTask = new EventEmitter<string>();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  select(task) {
+    this.eventTask.emit(task);
+  }
+
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Update odcinków angular 6
+
+
+Odc 9.48
+---------------------------------------------------------------------------
+Lokalna referencja w widoku HTML z użyciem #
+
+Da sie przesłac dane bez uzycia tworzeinia nowego pola w klasie ani bindingu,
+do inputa da sie dodać referencje i przesłac ja do metody.
+
+App html
+###########################################################################
+<input #inputText>
+<button (click)="add(inputText)">Dodaj</button>
+###########################################################################
+
+App komponent
+###########################################################################
+add(input: HTMLInputelement) {
+	console.log(input.value);
+}
+###########################################################################
+
+Da sie również dostać do childComponentu z pomocą lokalnej referencji
+
+do zrobienia póżniej !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Odc 9.49
+---------------------------------------------------------------------------
+Można przesłac html z widoku rodzic do widoku dziecko
+w app component nalezy wpisać dane pomiedzy znaczniki childcomponent
+
+w app-component
+###########################################################################
+<app-child>
+<p>Przesyłam jakiś tekst</p>
+</app-child>
+###########################################################################
+
+w childComponencie w wybranym miejscu dodaje znacznik: <ng-component>
+w tym miejscu pojawi sie dany kod
+
+
+Odc 9.50
+---------------------------------------------------------------------------
+Cykle zycia komponenów
+
+w app-component html
+###########################################################################
+<div *ngIf="show">
+  <app-nowy [inputText]="title" [inputDog]="dog">Wysyłam dodatkowy content</app-nowy>
+</div>
+<button (click)="changeTitle()">Zmień tytuł</button>
+<button (click)="changeDog()">Zmień psa</button>
+<button (click)="nothing()">Nic nie rób</button>
+<button (click)="destory()">Usuń komponent</button>
+###########################################################################
+
+w app-component ts
+###########################################################################
+export class AppComponent {
+
+  title = 'Nauka angulara';
+  dog = new Dog('Reksio');
+  show = true;
+
+  changeTitle() {
+    this.title = 'Angular jest fajny!';
+  }
+
+  changeDog() {
+    this.dog.name = 'Ciapek';
+    // this.dog = new Dog('Szarik');
+  }
+
+  nothing() {
+  }
+
+  destory() {
+    this.show = !this.show;
+  }
+}
+
+export class Dog {
+  constructor(public name: string) {
+  }
+}
+###########################################################################
+
+nowy.component.html
+###########################################################################
+<div>
+  <p>{{inputText}}</p>
+  <p>Mój pies to: {{inputDog.name}}</p>
+</div>
+<ng-content></ng-content>
+###########################################################################
+
+
+nowy.component.ts
+###########################################################################
+import {
+  Component, OnInit, Input,
+  OnChanges, SimpleChanges, DoCheck,
+  AfterContentInit, AfterContentChecked,
+  AfterViewInit, AfterViewChecked, OnDestroy
+} from '@angular/core';
+import { Dog } from '../app.component';
+
+@Component({
+  selector: 'app-nowy',
+  templateUrl: './nowy.component.html',
+  styleUrls: ['./nowy.component.css']
+})
+export class NowyComponent implements OnChanges, OnInit, DoCheck,
+  AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
+
+  @Input()
+  inputText: string;
+  @Input()
+  inputDog: Dog;
+  show = true;
+
+
+  /**
+   * Uruchamia się na począku, przed ngOnInit
+   * Sprawdza czy zmieniły się zbindowane pola komponentu.
+   * Musi zmienić sie referencja!
+   */
+  ngOnChanges(changes: SimpleChanges): void {
+    console.log('ngOnChanges - uruchomione! - #1');
+    console.log(changes);
+  }
+
+  /**
+ * Uruchamia się jeden raz podczas inicjalizacji komponentu
+ * Uruchami się po konstruktorze i po ngOnChange
+ */
+  ngOnInit(): void {
+    console.log('ngOnInit - uruchomione!  - #2');
+  }
+
+  /**
+    * Uruchamia się przy każdej zmianie, wywołaniu eventa etc
+    */
+  ngDoCheck(): void {
+    console.log('ngDoCheck - uruchomione! - #3');
+  }
+
+  /**
+    * Uruchamia się po inicjalizacji np <ng-content>
+    */
+  ngAfterContentInit(): void {
+    console.log('ngAfterContentInit - uruchomione! - #4');
+  }
+
+  /**
+    * Uruchamia się po każdej zmianie np <ng-content>
+    */
+  ngAfterContentChecked(): void {
+    console.log('ngAfterContentChecked - uruchomione! - #5');
+  }
+
+  /**
+    * Uruchamia się po inicjalizacji widoku
+    */
+  ngAfterViewInit(): void {
+    console.log('ngAfterViewInit - uruchomione! - #6');
+  }
+
+  /**
+   * Uruchamia się po każdej zmianie w widoku
+   */
+  ngAfterViewChecked(): void {
+    console.log('ngAfterViewChecked - uruchomione! - #7');
+  }
+
+  /**
+   * Uruchamia się po zniszczeniu komponentu
+   */
+  ngOnDestroy(): void {
+    console.log('ngOnDestroy - uruchomione! - #8');
+  }
+
+  content() {
+    this.show = !this.show;
+  }
+
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 11.51
+---------------------------------------------------------------------------
+
+app.component.html
+###########################################################################
+<div>
+
+  <div class="container">
+    <app-add-task (emitTask)="add($event)"></app-add-task>
+  </div>
+
+  <div class="container">
+    <app-todo-task [tasksList]="tasksList" (emitDone)="done($event)" (emitRemove)="remove($event)"></app-todo-task>
+    <app-done-task [taskDone]="taskDone"></app-done-task>
+  </div>
+
+</div>
+###########################################################################
+
+app.component.ts
+###########################################################################
+export class AppComponent {
+
+  tasksList: Array<string> = [];
+  taskDone: Array<string> = [];
+
+  constructor() { }
+
+  add(newTask: string) {
+    this.tasksList.push(newTask);
+  }
+
+  done(task: string) {
+    this.taskDone.push(task);
+    this.remove(task);
+  }
+
+  remove(task: string) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+  }
+}
+###########################################################################
+
+add-task.component.html
+###########################################################################
+<div>
+  <input [(ngModel)]="newTask">
+  <button (click)="add()">Dodaj</button>
+</div>
+###########################################################################
+
+add-task.component.ts
+###########################################################################
+export class AddTaskComponent implements OnInit {
+
+  newTask: string;
+
+  @Output()
+  emitTask = new EventEmitter<string>();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  add() {
+    this.emitTask.emit(this.newTask);
+    this.newTask = '';
+  }
+
+}
+###########################################################################
+
+todo-task.component.html
+###########################################################################
+<div>
+  Lista zadań
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li *ngFor="let t of tasksList;">
+        {{t}}
+        <button (click)="remove(t)">Usuń</button>
+        <button (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+todo-task.component.ts
+###########################################################################
+export class TodoTaskComponent implements OnInit {
+
+  @Input()
+  tasksList = [];
+
+  @Output()
+  emitDone = new EventEmitter<string>();
+
+  @Output()
+  emitRemove = new EventEmitter<string>();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  done(task: string) {
+    this.emitDone.emit(task);
+  }
+
+  remove(task: string) {
+    this.emitRemove.emit(task);
+  }
+}
+###########################################################################
+
+done-task.component.html
+###########################################################################
+<div>
+  Wykonane zadania: {{taskDone.length}}
+  <ul>
+    <li *ngFor="let t of taskDone;">
+      {{t}}
+    </li>
+  </ul>
+</div>
+###########################################################################
+
+done-task.component.ts
+###########################################################################
+export class DoneTaskComponent implements OnInit {
+
+  @Input()
+  taskDone: Array<string> = [];
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 12.52
+---------------------------------------------------------------------------
+wstep do działu
+
+
+Odc 12.53
+---------------------------------------------------------------------------
+ngStyle
+
+app.component.ts
+###########################################################################
+export class AppComponent implements OnInit {
+
+  tasksList: Array<string> = [];
+  taskDone: Array<string> = [];
+
+  constructor() { }
+
+  ngOnInit(): void {
+      this.tasksList = ['Mycie okien', 'Sprzątanie kuwety', 'Nauka angulara', 'Zakupy'];
+    }
+
+  add(newTask: string) {
+    this.tasksList.push(newTask);
+  }
+
+  done(task: string) {
+    this.taskDone.push(task);
+    this.remove(task);
+  }
+
+  remove(task: string) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+  }
+}
+###########################################################################
+
+todo-task.component.html
+###########################################################################
+<div>
+    <p [ngStyle]="{color: getColor()}"> Zadania do zrobienia: {{tasksList.length}}</p>
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li *ngFor="let t of tasksList;">
+        {{t}}
+        <button (click)="remove(t)">Usuń</button>
+        <button (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+todo-task.component.ts
+###########################################################################
+export class TodoTaskComponent implements OnInit {
+
+  @Input()
+  tasksList = [];
+
+  @Output()
+  emitDone = new EventEmitter<string>();
+
+  @Output()
+  emitRemove = new EventEmitter<string>();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  done(task: string) {
+    this.emitDone.emit(task);
+  }
+
+  remove(task: string) {
+    this.emitRemove.emit(task);
+  }
+  getColor() {
+    return this.tasksList.length >= 5 ? 'red' : 'green';
+  }
+}
+###########################################################################
+
+
+Odc 12.54
+---------------------------------------------------------------------------
+ngClass
+
+todo-task.component.css
+###########################################################################
+li {
+  background: lightgray;
+  margin: 5px;
+}
+
+.odd-li {
+  background: lavender;
+  margin: 5px;
+}
+
+.last-li {
+  background: pink;
+  margin: 5px;
+}
+###########################################################################
+
+todo-task.component.html
+###########################################################################
+<div>
+    <p [ngStyle]="{color: getColor()}"> Zadania do zrobienia: {{tasksList.length}}</p>
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li *ngFor="let t of tasksList; let odd = odd" [ngClass]="{'odd-li': odd, 'last-li': tasksList.length===1}" >
+        {{t}}
+        <button (click)="remove(t)">Usuń</button>
+        <button (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+
+Odc 12.55
+---------------------------------------------------------------------------
+Dodanie właściwości encapsulation w komponencie, aby 
+"zarazic" pozosałe kompinenty. style komponentu robia sie globalne.
+
+tworzenie globalnych stylów moze sie odbyc za pomoca pliku styles.css 
+znajdujacym sie w katalogu app
+
+###########################################################################
+import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+
+
+@Component({
+  selector: 'app-todo-task',
+  templateUrl: './todo-task.component.html',
+  styleUrls: ['./todo-task.component.css'],
+  encapsulation: ViewEncapsulation.None               // <-- przykład
+})
+export class TodoTaskComponent implements OnInit {
+
+  @Input()
+  tasksList = [];
+
+  @Output()
+  emitDone = new EventEmitter<string>();
+
+  @Output()
+  emitRemove = new EventEmitter<string>();
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  done(task: string) {
+    this.emitDone.emit(task);
+  }
+
+  remove(task: string) {
+    this.emitRemove.emit(task);
+  }
+  getColor() {
+    return this.tasksList.length >= 5 ? 'red' : 'green';
+  }
+}
+###########################################################################
+
+
+Odc 12.56
+---------------------------------------------------------------------------
+Dodawanie Bootstrapa
+
+npm install bootstrap
+
+nastepnie w pliku: angular.json dodajemy w "styles" [] ścieżke do bootstrapa
+
+###########################################################################
+"styles": [
+	"src/styles.css",
+	"./node_modules/bootstrap/dist/css/bootstrap.min.css"
+	],
+###########################################################################
+
+
+Odc 12.57
+---------------------------------------------------------------------------
+
+todo-task.component.html
+###########################################################################
+<div>
+    <p [ngStyle]="{color: getColor()}"> Zadania do zrobienia: {{tasksList.length}}</p>
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li *ngFor="let t of tasksList; let odd = odd" [ngClass]="{'odd-li': odd, 'last-li': tasksList.length===1}" >
+        {{t}}
+        <button class="btn btn-outline-warning" (click)="remove(t)">Usuń</button>
+        <button class="btn btn-outline-success" (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 13.58
+---------------------------------------------------------------------------
+wstep o serwisach
+serwisy odpowiedzialne są za:
+-komunikacja a zpi , bazą danych, serwer aplikacji np. spring
+-komunikacja z innymi komponentami (np w innych gałeziach, 
+zagniezdzonyck komponentach itd)
+
+można powiedziec ze serwisy sa tak zwanym 
+backendem naszej fronenddowej aplikacji
+
+mogą zbierac też czesto powielany kod by nie kopiowac tego samego duzo razy
+
+
+Odc 13.59
+---------------------------------------------------------------------------
+Tworzenie servisów
+aplikacja klikacz
+
+ng g s click
+
+app.component.html
+###########################################################################
+<h1>Aplikacja klikacz</h1>
+<div class="box">
+  <app-klikacz1></app-klikacz1>
+  Suma kliknieć = {{allClicks}}
+  <app-klikacz2></app-klikacz2>
+</div>
+###########################################################################
+
+app.component.ts
+###########################################################################
+export class AppComponent implements OnInit {
+
+  allClicks: number;
+
+  constructor(private clickService: ClickService) {
+  }
+
+  ngOnInit(): void {
+    this.clickService.getSum().subscribe(clicks => {
+      this.allClicks = clicks;
+    });
+  }
+}
+###########################################################################
+
+click.servis.ts
+###########################################################################
+import { Injectable } from '@angular/core';
+import { Subject, Observable } from 'rxjs';
+import { LogService } from './log.service';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ClickService {
+
+private sumClicks = 0;
+private sum = new Subject<number>();
+
+  constructor(private log: LogService) { }
+
+  addClicks() {
+    this.sumClicks += 1;
+    this.sum.next(this.sumClicks);
+    this.log.logger('klikniecie');
+  }
+
+  getSum(): Observable<number> {
+    return this.sum.asObservable();
+  }
+}
+###########################################################################
+
+klikacz1.component.html
+###########################################################################
+Ilość klików: {{click}}
+<button (click)="add()">Kliknij 1</button>
+###########################################################################
+
+klikacz1.component.ts
+###########################################################################
+export class Klikacz1Component implements OnInit {
+
+  click = 0;
+
+  constructor(private clickService: ClickService ) {}
+
+  ngOnInit() {
+  }
+
+  add(): void {
+    this.click += 1;
+    this.clickService.addClicks();
+  }
+}
+###########################################################################
+
+klikacz2.component.html
+###########################################################################
+Ilość klików: {{click}}
+<button (click)="add()">Kliknij 2</button>
+###########################################################################
+
+klikacz2.component.ts
+###########################################################################
+export class Klikacz2Component implements OnInit {
+
+  click = 0;
+
+  constructor(private clickService: ClickService) { }
+
+  ngOnInit() {
+  }
+
+  add(): void {
+    this.click += 1;
+    this.clickService.addClicks();
+  }
+}
+###########################################################################
+
+
+Odc 13.60
+---------------------------------------------------------------------------
+Wstrzykiwanie serwisu
+mozezy utworzyc  instancje serwisu w klasie, ael w tym wypadku powstanie 
+nowa instacja, abu korzystac z jednej isntancji i przechowywanych w niej 
+danych trzeba wsttrzyknać serwis w konstruktorze.
+Aby serwis był jedna instacja dla całej apki nalezy dodac jeszcze nazwe 
+serwisu do tablicy providers w app.module.ts 
+można to tez zrobic w konponencie, ale zostanie utworzona jedna isntancja 
+w konkrenym seervisie, ale bedzie też dostepna dla wszystkich 
+komponentów w gałeziach poniżej (w childach)
+
+
+Odc 13.61
+---------------------------------------------------------------------------
+tekst w odc 60
+
+
+Odc 13.62
+---------------------------------------------------------------------------
+kod w odc 59
+
+
+Odc 13.63
+---------------------------------------------------------------------------
+angular 6 
+nowy sposób na tworzenie servisów
+można usunać wpis z app.module.ts ( z providers) a zamias tego w servisie,
+w do dac w  @Injectable :
+@Injectable({ providedId: 'root')
+
+
+Odc 13.64
+---------------------------------------------------------------------------
+Serwisy i biblioteka rjxs
+
+uzycie mechanizmu obreswatorów
+app component zauważy ze cos sie zmienicło w click servis i moze pobrac 
+tą zmienną. nalezy w servisie utworzyć obiekt typu Subject np:
+private sum = new Subject<number>();
+
+do tego subjecta mozemy wrzucac jakies informacje.
+
+w metodzie zmieniającej wartość jakiegoś pola dodajemy wpis:
+this.sum.next(this.sumClick);
+
+wrzucamy zmienona wartość do subjecta i on powiadomi wsystkich 
+obserwatorów ze coś sie w nim zmieniło.
+
+pole subject z jest private, aby pobrac jego wartośc dodajemy metode:
+
+getSum(): Observable<number> {
+    return this.sum.asObservable();
+  }
+
+Sworzylismy obreswator, ktory możemy obserwowac i wyciagac jego dane
+
+Teraz w componencie w których chcemy używac danych z tego servisu, 
+musimy wstrzyknać servis w konsruktorze  i w metodzie OnInit piszemy:
+
+ngOnInit(): void {
+    this.clickService.getSum().subscribe(clicks => {
+      this.allClicks = clicks;
+    });
+  }
+
+
+kod w odc 59
+
+
+Odc 13.65
+---------------------------------------------------------------------------
+Wstrzykiwanie do serwisu
+Aby mozna było wstrzykiwać coś do servisu musi miec zdefiniowany dekorator:
+@Injectable 
+
+
+Odc 13.66
+---------------------------------------------------------------------------
+Prezenacja o dzialaniu serwisów i ich wstrzykiwaniu
+Po zainicjalizowaniu servisu w appmodule mamy dostepna jego instancje
+w całej aplikacji, jesli jednak w jakims komponencie dopiszemy w tablicy
+providers znowu ten srwis to zostanie utworzona nowa instancja servisu
+(zostanie utworzony nowy obiekt w pamieci)
+która bedzie dostepna w konponentach całej gałezi poniżej (w dzieciach)
+
+
+Odc 13.67
+---------------------------------------------------------------------------
+Kod w plikach - nie otwirałem
+
+
+---------------------------------------------------------------------------
+Odc 14.68
+---------------------------------------------------------------------------
+Przebudowa aplikacji lista zadan na uzycie serwisu
+
+Przenosicy wszystko z appcomponentu do tasks.service.ts
+
+Uzycie nowego typu: 
+tasksListObs = new BehaviorSubject<Array<string>>(this.tasksList);
+tasksDoneObs = new BehaviorSubject<Array<string>>(this.tasksDone);
+
+servis operuje na listach :
+private tasksList: Array<string> = [];
+private tasksDone: Array<string> = [];
+
+gdy dodawane jest kolejne zadanie, zrorione lub usuwane, czyli zachodza zmiany w 
+wymieninych listach, wybrana lista zostaje przekazana do BehaviorSubject, czyli:
+ 
+add(newTask: string) {
+    this.tasksList.push(newTask);
+    this.tasksListObs.next(this.tasksList);
+  }
+
+Aby użyć servisu nalezy do wstrzyknąc w kontrolerze i wybrac zmienna do 
+jakies zostanie przekazana wartość zmienionego pola w servisie:
+
+ constructor(private tasksservice: TasksService) {
+    this.tasksservice.getTaskListObs().subscribe((tasks: Array<string>) => {
+      this.tasksList = tasks;
+    });
+}
+  
+
+BehaviorSubject a Subject
+
+Servisy inicjalizuja sie przed komponentami!
+Jesli uzyjemy subjecta to w momencie w ktorym zostane uruchomiony kontroler 
+z subskrypcja to nie wykryje zmiany i nic nie pobierze.
+ 
+BehaviorSubject pobierze wartość startową.
+
+app.component.html
+###########################################################################
+<div>
+
+  <div class="container">
+    <app-add-task ></app-add-task>
+  </div>
+
+  <div class="container">
+    <app-todo-task></app-todo-task>
+    <app-done-task></app-done-task>
+  </div>
+
+</div>
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit } from '@angular/core';
+import { TasksService } from './services/tasks.service';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+
+}
+###########################################################################
+
+
+###########################################################################
+import { Injectable } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
+
+@Injectable()
+export class TasksService {
+
+
+  tasksList: Array<string> = [];
+  taskDone: Array<string> = [];
+
+  tasksListObs = new BehaviorSubject<Array<string>>([]);
+  tasksDoneObs = new BehaviorSubject<Array<string>>([]);
+
+  constructor() {
+    this.tasksList = ['Mycie okien', 'Sprzątanie kuwety', 'Nauka angulara', 'Zakupy'];
+    this.tasksListObs.next(this.tasksList);
+  }
+
+
+  add(newTask: string) {
+    this.tasksList.push(newTask);
+    this.tasksListObs.next(this.tasksList);
+  }
+
+  done(task: string) {
+    this.taskDone.push(task);
+    this.remove(task);
+    this.tasksDoneObs.next(this.taskDone);
+  }
+
+  remove(task: string) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+    this.tasksListObs.next(this.tasksList);
+  }
+
+  getTaskListObs(): Observable<Array<string>> {
+    return this.tasksListObs.asObservable();
+  }
+
+  getTaskDoneObs(): Observable<Array<string>> {
+    return this.tasksDoneObs.asObservable();
+  }
+
+}
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { TasksService } from '../services/tasks.service';
+
+@Component({
+  selector: 'app-add-task',
+  templateUrl: './add-task.component.html',
+  styleUrls: ['./add-task.component.css']
+})
+export class AddTaskComponent implements OnInit {
+
+  newTask: string;
+
+  constructor(private tasksService: TasksService) { }
+
+  ngOnInit() {
+  }
+
+  add() {
+  //  this.emitTask.emit(this.newTask);
+    this.tasksService.add(this.newTask);
+    this.newTask = '';
+  }
+
+}
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { TasksService } from '../services/tasks.service';
+
+
+@Component({
+  selector: 'app-todo-task',
+  templateUrl: './todo-task.component.html',
+  styleUrls: ['./todo-task.component.css'],
+  encapsulation: ViewEncapsulation.None
+})
+export class TodoTaskComponent implements OnInit {
+
+  tasksList = [];
+
+  constructor(private tasksservice: TasksService) {
+    this.tasksservice.getTaskListObs().subscribe((tasks: Array<string>) => {
+      this.tasksList = tasks;
+    });
+  }
+
+  ngOnInit() {
+  }
+
+  done(task: string) {
+    this.tasksservice.done(task);
+  }
+
+  remove(task: string) {
+    this.tasksservice.remove(task);
+  }
+  getColor() {
+    return this.tasksList.length >= 5 ? 'red' : 'green';
+  }
+
+}
+###########################################################################
+
+###########################################################################
+import { Component, OnInit, Input } from '@angular/core';
+import { TasksService } from '../services/tasks.service';
+
+@Component({
+  selector: 'app-done-task',
+  templateUrl: './done-task.component.html',
+  styleUrls: ['./done-task.component.css']
+})
+export class DoneTaskComponent implements OnInit {
+
+  taskDone: Array<string> = [];
+
+  constructor(private tasksService: TasksService) {
+    this.tasksService.getTaskDoneObs().subscribe(
+      (tasks: Array<string>) => {
+        this.taskDone = tasks;
+      }
+    );
+   }
+
+  ngOnInit() {
+  }
+
+}
+###########################################################################
+
+
+Odc 14.69
+---------------------------------------------------------------------------
+Dodanie do Listy zadan interfejsu task i operowanie na obiekcie task
+zamiast stringa
+
+
+###########################################################################
+export interface Task {
+  name: string;
+  created: Date;
+  end?: Date;
+}
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
+import { TasksService } from '../services/tasks.service';
+import { Task } from '../models/task';
+
+@Component({
+  selector: 'app-add-task',
+  templateUrl: './add-task.component.html',
+  styleUrls: ['./add-task.component.css']
+})
+export class AddTaskComponent implements OnInit {
+
+  newTask: string;
+
+  constructor(private tasksService: TasksService) { }
+
+  ngOnInit() {
+  }
+
+  add() {
+    //  this.emitTask.emit(this.newTask);
+    const task: Task = ({ name: this.newTask, created: new Date() });
+    this.tasksService.add(task);
+    this.newTask = '';
+  }
+
+}
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { TasksService } from '../services/tasks.service';
+import { Task } from '../models/task';
+
+
+@Component({
+  selector: 'app-todo-task',
+  templateUrl: './todo-task.component.html',
+  styleUrls: ['./todo-task.component.css'],
+  encapsulation: ViewEncapsulation.None
+})
+export class TodoTaskComponent implements OnInit {
+
+  tasksList: Array<Task> = [];
+
+  constructor(private tasksservice: TasksService) {
+    this.tasksservice.getTaskListObs().subscribe((tasks: Array<Task>) => {
+      this.tasksList = tasks;
+    });
+  }
+
+  ngOnInit() {
+  }
+
+  done(task: Task) {
+    task.end = new Date();
+    this.tasksservice.done(task);
+  }
+
+  remove(task: Task) {
+
+    this.tasksservice.remove(task);
+  }
+  getColor() {
+    return this.tasksList.length >= 5 ? 'red' : 'green';
+  }
+
+}
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit, Input } from '@angular/core';
+import { TasksService } from '../services/tasks.service';
+import { Task } from '../models/task';
+
+@Component({
+  selector: 'app-done-task',
+  templateUrl: './done-task.component.html',
+  styleUrls: ['./done-task.component.css']
+})
+export class DoneTaskComponent implements OnInit {
+
+  taskDone: Array<Task> = [];
+
+  constructor(private tasksService: TasksService) {
+    this.tasksService.getTaskDoneObs().subscribe(
+      (tasks: Array<Task>) => {
+        this.taskDone = tasks;
+      }
+    );
+   }
+
+  ngOnInit() {
+  }
+
+}
+###########################################################################
+
+###########################################################################
+import { Injectable } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { Task } from '../models/task';
+
+
+@Injectable()
+export class TasksService {
+
+
+  private tasksList: Array<Task> = [];
+  private taskDone: Array<Task> = [];
+
+  private  tasksListObs = new BehaviorSubject<Array<Task>>([]);
+  private  tasksDoneObs = new BehaviorSubject<Array<Task>>([]);
+
+  constructor() {
+    this.tasksList = [
+      {name: 'Mycie okien', created: new Date},
+      {name: 'Sprzątanie kuwety', created: new Date},
+      {name: 'Nauka angulara', created: new Date},
+      {name: 'Zakupy', created: new Date}];
+    this.tasksListObs.next(this.tasksList);
+  }
+
+
+  add(newTask: Task) {
+    this.tasksList.push(newTask);
+    this.tasksListObs.next(this.tasksList);
+  }
+
+  done(task: Task) {
+    this.taskDone.push(task);
+    this.remove(task);
+    this.tasksDoneObs.next(this.taskDone);
+  }
+
+  remove(task: Task) {
+    this.tasksList = this.tasksList.filter(e => e !== task);
+    this.tasksListObs.next(this.tasksList);
+  }
+
+  getTaskListObs(): Observable<Array<Task>> {
+    return this.tasksListObs.asObservable();
+  }
+
+  getTaskDoneObs(): Observable<Array<Task>> {
+    return this.tasksDoneObs.asObservable();
+  }
+
+}
+###########################################################################
+
+
+---------------------------------------------------------------------------
+Odc 15.70
+---------------------------------------------------------------------------
+Tworzenie Dyrektyw
+
+dyrektywa to tak jakby komponent bez htmla
+oddziałowywuje na pewne elementy w htmlu
+jest to zwykła klasa, nie posiada jak np komponen styli i widoku html
+Taki uproszczony komponent
+
+Tworzenie dyrektywy w projekcie lista zadan 
+Nowy folder -> shared -> ng g d checked
+Dyrektywe trzeba jeszcze dodac do app.module.ts 
+
+
+###########################################################################
+import { Directive } from '@angular/core';
+
+@Directive({
+  selector: '[appChecked]'
+})
+export class CheckedDirective {
+
+  constructor() { }
+
+}
+###########################################################################
+
+Aby użyć jej w wybranym komponencie wystarczy dodac jej selektor
+
+done-tasks.component.ts
+###########################################################################
+<div>
+  Wykonane zadania: {{taskDone.length}}
+  <ul>
+    <li appChecked *ngFor="let t of taskDone;">
+      {{t.name}}
+    </li>
+  </ul>
+</div>
+###########################################################################
+
+
+Odc 15.71
+---------------------------------------------------------------------------
+Dodawanie ikonki za pomoca dyrektywy i zmiana tła
+do konstruktowa dyrektywy trzeba wstrzyknac klase ElementRef i Renderer2
+
+###########################################################################
+import { Directive, ElementRef, Renderer2, OnInit } from '@angular/core';
+
+@Directive({
+  selector: '[appChecked]'
+})
+export class CheckedDirective implements OnInit {
+
+  constructor(private el: ElementRef, private renderer: Renderer2) { }
+
+  ngOnInit(): void {
+    const li = this.el.nativeElement;
+    this.renderer.setStyle(li, 'list-style-image', 'url(/assets/checked.png)');
+    this.renderer.setStyle(li, 'background', 'aquamarine');
+  }
+
+}
+###########################################################################
+
+
+Odc 15.72
+---------------------------------------------------------------------------
+Użycie @HostListener w dyrektywie - reagowanie na zdarzenia
+
+tworzenie kolejnej dyrektywy 
+ng g d date
+
+dodac do app.module.ts
+
+dyrektywa ma selektor - appDate
+
+@HostListener zaimplementowany z paramentrem - 'mouseenter' z @angular/core:
+metoda zaimplementowana po tym dekoratorze zostanie wywołana w 
+momencie najazdu myszka na liste.
+
+@HostListener('mouseenter')
+  moEnt(eventDate: Event) {
+	console.log(this.date);
+  }
+  
+@HostListener zaimplementowany z paramentrem - 'mouseleave'
+wywylywuje metode zaimplementowana ponizej po opuszczeniu pola.
+   
+###########################################################################
+import { Directive, HostListener, Input } from '@angular/core';
+
+@Directive({
+  selector: '[appDate]'
+})
+export class DateDirective {
+
+  constructor() { }
+
+@HostListener('mouseenter')
+  moEnt(eventDate: Event) {
+console.log(this.date);
+  }
+
+  @HostListener('mouseleave')
+  moLea(eventDate: Event) {
+console.log('');
+  }
+
+}
+###########################################################################
+
+
+Odc 15.73
+---------------------------------------------------------------------------
+w miejscu w którym używamy selektowa dyrektywy możemy uzyc  property  
+bindingu. Musimy w dyrektywie dodac w dekorator @Input(), a w htmlu: 
+[date]="t.end"
+
+###########################################################################
+<div>
+  Wykonane zadania: {{taskDone.length}}
+  <ul>
+    <li appChecked appDate [date]="t.end" *ngFor="let t of taskDone;">
+      {{t.name}}
+    </li>
+  </ul>
+</div>
+###########################################################################
+
+done-task.component.html
+###########################################################################
+import { Directive, HostListener, Input } from '@angular/core';
+
+@Directive({
+  selector: '[appDate]'
+})
+export class DateDirective {
+
+@Input()
+  private date: Date;
+
+  constructor() { }
+
+@HostListener('mouseenter')
+  moEnt(eventDate: Event) {
+console.log(this.date);
+  }
+
+  @HostListener('mouseleave')
+  moLea(eventDate: Event) {
+console.log('');
+  }
+
+}
+###########################################################################
+
+
+Odc 15.74
+---------------------------------------------------------------------------
+Modyfikacja elementów HTML przez dyrektywę
+najpierw wstyczkujemy do konstrunktowa dyrektywy klasy:
+constructor(private el: ElementRef, private renderer: Renderer2)
+  
+w dyrektywie stworzymy elemet html - <p> i wkleimy go z datą dowania i 
+wykonania zadania. nastepnie zostanie wrzucony do htmla po 
+najechaniu strzałką na element w liscie
+
+tworzenie paragrafu:     
+this.paragraph = this.renderer.createElement('p');
+
+stworzony paragraf:
+<p _ngcontent-c3>​</p>​
+
+Dodanie elementu do paragrafu:
+this.paragraph.innerHTML =   this.date.toLocaleString();
+
+efekt koncowy:
+<p _ngcontent-c3>​14.06.2018, 15:26:58​</p>​
+
+nastepnie trzeba wybrac do jakiego elementu zostanie dodany paragraf
+wybieramy el czyli ElementRef - element w którym dodalismy selekor dyrektywy
+this.renderer.appendChild(this.el.nativeElement, this.paragraph);
+
+usuniecie paragrafu:
+this.renderer.removeChild(this.el.nativeElement, this.paragraph);
+
+###########################################################################
+import { Directive, HostListener, Input, ElementRef, Renderer2 } from '@angular/core';
+
+@Directive({
+  selector: '[appDate]'
+})
+export class DateDirective {
+
+  @Input()
+  private date: Date;
+  private paragraph;
+
+  constructor(private el: ElementRef, private renderer: Renderer2) {
+    this.paragraph = this.renderer.createElement('p');
+  }
+
+  @HostListener('mouseenter')
+  moEnt(eventDate: Event) {
+    this.paragraph.innerHTML =   this.date.toLocaleString();
+    this.renderer.appendChild(this.el.nativeElement, this.paragraph);
+  }
+
+  @HostListener('mouseleave')
+  moLea(eventDate: Event) {
+    this.renderer.removeChild(this.el.nativeElement, this.paragraph);
+  }
+
+}
+###########################################################################
+
+
+dodanie dyrektwy do komponentu todo-task.component.html
+###########################################################################
+<div>
+    <p [ngStyle]="{color: getColor()}"> Zadania do zrobienia: {{tasksList.length}}</p>
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li appDate [date]="t.created" *ngFor="let t of tasksList; let odd = odd" [ngClass]="{'odd-li': odd, 'last-li': tasksList.length===1}" >
+        {{t.name}}
+        <button class="btn btn-outline-warning" (click)="remove(t)">Usuń</button>
+        <button class="btn btn-outline-success" (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+
+Odc 15.75
+---------------------------------------------------------------------------
+Plik  z kodem
+
+
+
+---------------------------------------------------------------------------
+Odc 16.76  Tworzenie własnych pipe
+---------------------------------------------------------------------------
+
+Tworzenie własnych pipe
+
+Pipy słuzą do edycji sposobu wyświetlana danych w html .
+Są juz gotowe w pipy np: {{task.name | upercase}} wszystkie nazwy zamienia 
+sie na duze litery
+
+Tworzenie:
+w katalofu shared tworzymi pipa:
+ng g p transform-task
+
+Wygenerowany kod pipa:
+###########################################################################
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'transformTask'
+})
+export class TransformTaskPipe implements PipeTransform {
+
+  transform(value: any, args?: any): any {
+    return null;
+  }
+
+}
+###########################################################################
+
+w htmlu mozemy juz uzycwać pipa za pomoca name: transformTask
+{{task.name | transformTask}}
+ten pipe zrwaca null, czyli wyczysci pole w miejsci dodania 
+
+
+Odc 16.77  Implementacja pipe
+---------------------------------------------------------------------------
+
+pipe przyjmuje wartośc typu string i zwraca stringa z duzą pierwsza literą i
+dodaje wykrzyknik:
+
+###########################################################################
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'transformTask'
+})
+export class TransformTaskPipe implements PipeTransform {
+
+  transform(value: string, args?: any): any {
+    return value.charAt(0).toUpperCase() + value.slice(1) + '!';
+  }
+
+}
+###########################################################################
+
+
+Odc 16.78  Przesyłanie parametrów do pipe
+---------------------------------------------------------------------------
+Tworzenie pipa z przesyłaniem argumentu:
+
+{{task.name | transformTask: '!'}}
+{{t.name  | transformTask: ' - super!'}}
+
+###########################################################################
+export class TransformTaskPipe implements PipeTransform {
+
+  transform(value: string, args: string = ''): any {
+    return value.charAt(0).toUpperCase() + value.slice(1) + args;
+  }
+###########################################################################
+
+
+Odc 16.79  Sortowanie za pomocą pipe
+---------------------------------------------------------------------------
+wchodzimy do folderu shared w konsoli
+ng g p sortName
+dodajemy pipe do appmodule (automactycznie (raczej))
+
+Nasz pipe bedzie działał bezpośrednio na liscie Tasków.
+Stworzony pipe dziaa jednak tylko na liscie startowe, 
+nie sortuje nowo dodanych
+
+###########################################################################
+import { Pipe, PipeTransform } from '@angular/core';
+import { Task } from '../models/task';
+
+@Pipe({
+  name: 'sortName'
+})
+export class SortNamePipe implements PipeTransform {
+
+  transform(value: Array<Task>, args?: any): Array<Task> {
+    return value.sort((a, b) => {
+      if (a.name.toLowerCase() > b.name.toLowerCase()) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+  }
+
+}
+###########################################################################
+
+###########################################################################
+<div>
+    <p [ngStyle]="{color: getColor()}"> Zadania do zrobienia: {{tasksList.length}}</p>
+  <ng-container *ngIf="tasksList.length > 0; else noTask">
+    <ul>
+      <li appDate [date]="t.created" *ngFor="let t of tasksList | sortName; let odd = odd" [ngClass]="{'odd-li': odd, 'last-li': tasksList.length===1}" >
+        {{t.name | transformTask: '!'}}
+        <button class="btn btn-outline-warning" (click)="remove(t)">Usuń</button>
+        <button class="btn btn-outline-success" (click)="done(t)">Zrobione</button>
+      </li>
+    </ul>
+  </ng-container>
+  <ng-template #noTask>
+    <p>Brak zadań, masz czas wolny!</p>
+  </ng-template>
+</div>
+###########################################################################
+
+
+Odc 16.80  Pure pipe czym jest i jak to działa
+---------------------------------------------------------------------------
+stworzony pipe - pure
+W dekoratorze @pipe dodajemy wlasciwosc pure: false (domyslnie true)
+i nasze sortowanie działa po dodaniu tasków. 
+
+Ale podczas debugowania mozna zobaczyć ze cały czas odpala tego pipe, 
+wystarczy ruszyc myszką po stronie. Jest to bardzo zasobochłonne i 
+niewydajne jesli damy mu duzą liste do sortowania
+
+Mozna to naprawidzc w inny sposób. Gdy pure jest true - czyli domyslnie
+sprawdzaon tylko czy nie zmieniła sie referencja do listy, dlatego gdy
+dodajemy nowy task, nie widzi tego bo to dalej ta sama lista, jedynie 
+nadpisywana, zeby to naprawić trzeba w konstruktorze kontrolera, gdzie 
+subskrybujemy liste z serwisu dodać zwrócić nowy okiekt - czyli 
+nowa referencja. Załatwi to np metoda Slice() zwracajaca nowy obiekt.
+
+"The slice() method returns the selected elements in an array, as a 
+new array object."
+
+Debagowanie apki:
+wchodzimy w zbadaj w przegladarce i dajemy Sources i 
+mozemy postawić breakpointa 
+
+Przed:
+###########################################################################
+import { Pipe, PipeTransform } from '@angular/core';
+import { Task } from '../models/task';
+
+@Pipe({
+  name: 'sortName',
+  pure: false
+})
+export class SortNamePipe implements PipeTransform {
+(...)
+###########################################################################
+
+Po (usuwamy pure z pipa i ...)
+###########################################################################
+import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
+import { TasksService } from '../services/tasks.service';
+import { Task } from '../models/task';
+
+
+@Component({
+  selector: 'app-todo-task',
+  templateUrl: './todo-task.component.html',
+  styleUrls: ['./todo-task.component.css'],
+  encapsulation: ViewEncapsulation.None
+})
+export class TodoTaskComponent implements OnInit {
+
+  tasksList: Array<Task> = [];
+
+  constructor(private tasksservice: TasksService) {
+    this.tasksservice.getTaskListObs().subscribe((tasks: Array<Task>) => {
+      this.tasksList = tasks.slice();
+    });
+  }
+
+  ngOnInit() {
+  }
+
+  done(task: Task) {
+    task.end = new Date();
+    this.tasksservice.done(task);
+  }
+
+  remove(task: Task) {
+
+    this.tasksservice.remove(task);
+  }
+  getColor() {
+    return this.tasksList.length >= 5 ? 'red' : 'green';
+  }
+
+}
+###########################################################################
+
+
+Odc 16.81   Projekt "Lista zadań" - kod aktualnego projektu po dodaniu pipe
+---------------------------------------------------------------------------
+Kod
+
+
+---------------------------------------------------------------------------
+Odc 17.82  Moduł HTTP
+---------------------------------------------------------------------------
+wykorzystamy: https://jsonplaceholder.typicode.com/
+
+
+Odc 17.83  Przygotowanie aplikacji do pracy z HTTP
+---------------------------------------------------------------------------
+Przykładowy: https://jsonplaceholder.typicode.com/posts
+Tworzymy nowy projekt, oddajmy serwis - http
+w app.module.ts dodajemy do providers nasz serwis
+dodajemy HttpClientModule z 
+import { HttpClientModule } from '@angular/common/http';
+
+do servisu wstrzykujemy HttpClient 
+( Do app.module musimy zaimportowac cały moduł)
+
+
+Odc 17.84  Zapytanie GET
+---------------------------------------------------------------------------
+
+w http.service:
+###########################################################################
+getPosts() {
+   this.http.get('https://jsonplaceholder.typicode.com/posts');
+}
+###########################################################################
+
+poinformowanie o typie i dodanie reurn (metoda get domyslnie zwraca observable):
+
+###########################################################################
+getPosts(): Observable<Array<Post>> {
+   return this.http.get<Array<Post>>('https://jsonplaceholder.typicode.com/posts');
+}
+###########################################################################
+
+Aby obłużyć w komponencie metode getPosts() nalezy subskrybować medote 
+getPosts() z http.servis
+
+w przykladzie wyświetlmamy jedynie w konsoli pobrana liste
+###########################################################################
+getPosts() {
+    this.httpServis.getPosts().subscribe(posts => {
+      console.log(posts);
+    });
+}
+###########################################################################
+
+metoda w servisie zwracajaca jened post
+###########################################################################
+getPost(id: number): Observable<Post> {
+    return this.http.get<Post>('https://jsonplaceholder.typicode.com/posts/' + id);
+}
+###########################################################################
+
+
+
+Odc 17.85   Zapytanie GET z parametrem
+---------------------------------------------------------------------------
+Post po Id - https://jsonplaceholder.typicode.com/posts/2
+
+klikamy na get w servise lewym myszka z ctrl
+###########################################################################
+/**
+     * Construct a GET request which interprets the body as an `ArrayBuffer` and returns it.
+     *
+     * @return an `Observable` of the body as an `ArrayBuffer`.
+     */
+    get(url: string, options: {
+        headers?: HttpHeaders | {
+            [header: string]: string | string[];
+        };
+        observe?: 'body';
+        params?: HttpParams | {
+            [param: string]: string | string[];
+        };
+        reportProgress?: boolean;
+        responseType: 'arraybuffer';
+        withCredentials?: boolean;
+    }): Observable<ArrayBuffer>;
+###########################################################################
+widimy ze get przyjmóje opcjonalnie argument params
+
+get z paramentrem:
+###########################################################################
+getPostByUser(id: number): Observable<Array<Post>> {
+    const parm = new HttpParams().set('userId', id.toLocaleString());
+    return this.http.get<Array<Post>>('https://jsonplaceholder.typicode.com/posts', {params: parm});
+}
+###########################################################################
+
+w kontrolerze
+###########################################################################
+getPostByUser() {
+    this.httpServis.getPostByUser(1).subscribe(posts =>
+    console.log(posts));
+}
+###########################################################################
+
+
+Odc 17.86  Zapytanie POST
+---------------------------------------------------------------------------
+Tworzy nowy obiekt
+###########################################################################
+addPost(post: Post): Observable<Post> {
+    return this.http.post<Post>('https://jsonplaceholder.typicode.com/posts', post);
+}
+###########################################################################
+
+###########################################################################
+addPost() {
+    const post: Post = ({
+      userId: 1,
+      id: null,
+      title: 'Mój post',
+      body: 'Pierwszy post o angularze'
+    });
+    this.httpServis.addPost(post).subscribe(p => {
+console.log(p);
+    });
+}
+###########################################################################
+
+
+Odc 17.87  Zapytanie PUT
+---------------------------------------------------------------------------
+PUT podmienia cały rekord(wiersz) lub jak go nie ma to tworzy nowy
+jesli nie podamy jakiegiej pola(komurki) to zastąpi istniejacy pustym
+
+###########################################################################
+updatePost(post: Post): Observable<Post> {
+    return this.http.put<Post>('https://jsonplaceholder.typicode.com/posts/' + post.id, post);
+}
+###########################################################################
+
+###########################################################################
+updatePost() {
+    const post: Post = ({
+      userId: 1,
+      id: 1,
+      title: 'Edit Mój post',
+      body: 'nowy wpis'
+    });
+    this.httpServis.updatePost(post).subscribe(
+      p => {
+        console.log(p);
+      }
+    );
+}
+###########################################################################
+
+
+Odc 17.88  Zapytanie DELETE
+---------------------------------------------------------------------------
+
+###########################################################################
+deletePost() {
+    this.httpServis.deletePost(1).subscribe(post => {
+      console.log(post);
+    });
+}
+###########################################################################
+
+###########################################################################
+deletePost(id: number): Observable<Post> {
+    return this.http.delete<Post>('https://jsonplaceholder.typicode.com/posts/' + id);
+}
+###########################################################################
+
+
+Odc 17.89   Zapytanie PATCH
+---------------------------------------------------------------------------
+patch działa jak put tylko ze podmienia jedynie przekazane pola
+
+###########################################################################
+changePost() {
+    const p: Post = ({
+      id: 1,
+      body: 'zmieniam tylko wpis'
+    });
+    this.httpServis.changePost(p).subscribe(
+      post => {
+        console.log(post);
+      }
+    );
+}
+###########################################################################
+
+###########################################################################
+changePost(post: Post): Observable<Post> {
+    return this.http.patch<Post>('https://jsonplaceholder.typicode.com/posts/' + post.id, post);
+}
+###########################################################################
+
+
+Odc 17.90 Obsługa błędów w HTTP
+---------------------------------------------------------------------------
+
+###########################################################################
+getPosts() {
+    this.httpServis.getPosts().subscribe(posts => {
+      console.log(posts);
+    },
+  (error: HttpErrorResponse) => {
+    console.log(error.status);
+  }
+  );
+}
+###########################################################################
+
+###########################################################################
+getPosts(): Observable<Array<Post>> {
+    return this.http.get<Array<Post>>('https://jsonplaceholder.typicode.com/xyz');
+}
+###########################################################################
+
+retry nie działa?!
+
+Odc 17.91  Konfigurowanie zapytań HTTP
+---------------------------------------------------------------------------
+pobranie pełnej wercji zaptania nie tylko body
+Istnieje możliwość podania dodatkowe parmanetry w zapytaniach http.
+zmienic format zwaracych danych (nie json)
+
+
+Odc 17.92  Użycie async pipe z observable
+---------------------------------------------------------------------------
+Wyswietlanie obiektu bez pomocy subsktypcji
+
+zmiana z :
+###########################################################################
+getPosts() {
+    this.httpServis.getPosts().subscribe(posts => {
+      console.log(posts);
+    });
+}
+###########################################################################
+
+na  -> 
+
+app.component.html
+###########################################################################
+<div *ngFor="let p of allPosts$ | async">
+  {{p.title}}
+</div>
+###########################################################################
+
+app.component.ts
+###########################################################################
+allPosts$: Observable<Array<Post>>;
+
+(...)
+
+getPosts() {
+     this.allPosts$ = this.httpServis.getPosts();
+}
+###########################################################################
+
+
+Odc 17.93  Obsługa błędów przy async pipe
+---------------------------------------------------------------------------
+wyświetlanie danych za pomocą async pipe bezpośrednio z observable
+zwracanego z http.service utraciliśmu możliwość operowania tymi danymi,
+błedami itd.
+
+http service
+###########################################################################
+export class HttpService {
+
+  private postsObs = new BehaviorSubject<Array<Post>>([]);
+  posts$ = this.postsObs.asObservable();
+
+  constructor(private http: HttpClient) { }
+
+  getPosts() {
+    return this.http.get<Array<Post>>('https://jsonplaceholder.typicode.com/posts')
+    .subscribe( posts => {
+      this.postsObs.next(posts);
+    },
+    err => {
+      console.log(err);
+    }
+    );
+  }
+  
+ (...)
+###########################################################################
+
+app.component.ts
+###########################################################################
+export class AppComponent {
+
+  allPosts$: Observable<Array<Post>>;
+
+  constructor(private httpServis: HttpService) {
+
+  }
+
+  getPosts() {
+     this.allPosts$ = this.httpServis.posts$;
+  }
+
+###########################################################################
+
+
+Odc 17.94  Jak wykorzystać HttpInterceptor
+---------------------------------------------------------------------------
+monitorowanie zapytań http
+
+app.module.ts
+###########################################################################
+  providers: [HttpService,
+  {
+    provide: HTTP_INTERCEPTORS,
+    useClass: SpyInterceptor,
+    multi: true,
+  }],
+###########################################################################
+
+spy.interceptor.ts
+###########################################################################
+import { HttpInterceptor, HttpHandler, HttpHeaderResponse } from '@angular/common/http';
+import { HttpRequest } from '@angular/common/http';
+
+export class SpyInterceptor implements HttpInterceptor {
+
+  intercept(req: HttpRequest<any>, next: HttpHandler): any {
+    console.log('Zapytanie wykonano dnia: ', new Date());
+    console.log('Zapytanie na adress: ', req.url);
+    return next.handle(req);
+  }
+}
+###########################################################################
+
+
+Odc 17.95   Modyfikacja zapytania z pomocą HttpInterceptor
+---------------------------------------------------------------------------
+Autoryzacja z doklejaniem tokena
+
+
+
+Odc 17.96   Przykłady z lekcji o HTTP
+---------------------------------------------------------------------------
+
+
+
+
+---------------------------------------------------------------------------
+Odc 18.97  Aplikacja "Lista zadań" - dołączamy bazę danych
+---------------------------------------------------------------------------
+Użycie MongoDB w chmurze mLab
+https://mlab.com/
+dane przechowywane są w kolekjach
+
+
+Odc 18.98  Modyfikacja klasy Task pod nową strukturę danych
+---------------------------------------------------------------------------
+
+
+Odc 18.99  Refaktoryzacja TaskService
+---------------------------------------------------------------------------
+
+
+Odc 18.100  Usuwanie zbędnego kodu z aplikacji
+---------------------------------------------------------------------------
+
+
+Odc 18.101  Dokumentacja API, czyli jak dokładnie działa nasz back-end
+---------------------------------------------------------------------------
+
+
+Odc 18.102  Wykonujemy zapytanie GET i pobieramy zadania
+---------------------------------------------------------------------------
+
+
+Odc 18.103  Zapisywanie zadań w bazie MongoDB
+---------------------------------------------------------------------------
+
+
+Odc 18.104  Kontynuujemy zapis zadań w bazie MongoDB
+---------------------------------------------------------------------------
+
+
+Odc 18.105  Ostanie poprawki po przebudowie aplikacji
+---------------------------------------------------------------------------
+
+
+Odc 18.106   "Lista zadań" - kod aplikacji po dodaniu bazy danych
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 19.107  Obsługa routingu w Angularze
+---------------------------------------------------------------------------
+wstęp
+
+
+Odc 19.108   Stworzenie modułu routingu
+---------------------------------------------------------------------------
+tworzymy nowy moduł dotyczacy wyłaczeni routingu
+app.routing.module.ts 
+
+nazwe klasy nalezy zaimportować w app.module.ts w tablicy imports
+
+app.routing.module.ts:
+app.routing.module.ts:
+###########################################################################
+import { Routes, RouterModule } from '@angular/router';
+import { NgModule, Component } from '@angular/core';
+import { HomeComponent } from './home/home.component';
+import { CoursesComponent } from './courses/courses.component';
+import { AboutComponent } from './about/about.component';
+
+const appRoutes: Routes = [
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'courses',
+    component: CoursesComponent,
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  }
+];
+
+
+@NgModule({
+  imports: [RouterModule.forRoot(appRoutes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule {
+}
+###########################################################################
+
+
+Odc 19.109    Podpięcie routingu w aplikacji z użyciem routerLink
+---------------------------------------------------------------------------
+uzycie routingu
+
+app.component.ts
+###########################################################################
+<h1>Routing w Angularze</h1>
+
+<nav>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/courses" routerLinkActive="active">Kursy</a>
+  <a routerLink="/about" routerLinkActive="active">O nas</a>
+</nav>
+<router-outlet></router-outlet>
+###########################################################################
+
+dodanie startowego adresu home - strona.pl/home 
+###########################################################################
+const appRoutes: Routes = [
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'courses',
+    component: CoursesComponent,
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  }
+];
+###########################################################################
+
+
+Odc 19.110    Obsłużenie strony "page not found"
+---------------------------------------------------------------------------
+tworzymy komponent i dodajemy tylko jeden tekst:
+###########################################################################
+<h1>Taka strona nie istnieje</h1>
+###########################################################################
+
+
+dodanie '**' - wild card - dzika karta, wyłapie wszystko co nie zostanie 
+obsłuzone wczesniej, nie pasuje do zadnej sciezki
+
+kolejnośc w ściezkach ma znaczenie, dodajemy pageNotFound na koniec 
+###########################################################################
+const appRoutes: Routes = [
+{
+(...)
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  }
+];
+(...)
+###########################################################################
+
+
+Odc 19.111    Przygotowanie przykładu pod rozbudowę routingu
+---------------------------------------------------------------------------
+Przygotowanie aplikacji do przesyłania parametrów w pasku adresowym
+
+twozymy nowy serwis symuujacy baze danych:
+data-base.service.ts
+
+dodajemy go w app module do providers
+
+###########################################################################
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
+
+@Injectable()
+export class DataBaseService {
+
+  COURSES = [
+    new Course('1', 'Kurs JavaFX', 'Wszystko co musisz wiedzieć o budowaniu aplikacji desktopowych...'),
+    new Course('2', 'Kurs OrmLite', 'Obsługa baz danych z OrmLite jeszcze nigdy nie była tak prosta...'),
+    new Course('3', 'Kurs Java 8', 'Od teraz Java 8 nie będzie stanowić dla Ciebie problemu.....'),
+    new Course('4', 'Kurs Angular', 'Twórz niesamowite aplikacje webowe. Poznaj możliwoci nowej wersji Angulara....')
+  ];
+
+  getCourses(): Observable<Array<Course>> {
+    return Observable.of(this.COURSES);
+  }
+
+  getCourseById(id: string): Course {
+    return this.COURSES.find(e => e.id === id);
+  }
+
+  getRandomCoruse() {
+    const n = Math.floor(Math.random() * 3);
+    return this.COURSES[n];
+  }
+
+}
+
+export class Course {
+  constructor(public id: string, public title: string, public content: string) { }
+}
+###########################################################################
+
+nowy komponent w courses -> course-detail
+
+komponent ten bedzie odpowiedzilny na zywsietlane szczegółowych informacji
+
+w courses.component bedziemy wyświetlac liste kursów
+###########################################################################
+export class CoursesComponent  {
+
+	courses: Array<Course>;
+
+	constructor(private dbService: DataBaseService) { }
+
+	ngOnInit() {
+		this.dbService.getCourses().subscribe(list => {
+			this.courses = list;
+		});
+	}
+}
+
+###########################################################################
+
+w widoku courses.component
+###########################################################################
+<p>
+  Zacznij programować z naszymi kursami!
+</p>
+
+<ul>
+  <li *ngFor="let course of courses">
+    {{course.title}}
+    <button>Więcej</button>
+  </li>
+</ul>
+###########################################################################
+
+
+Odc 19.112    Rozszerzenie routingu o child rout
+--------------------------------------------------------------------------
+routing wewnetrzny componentu
+
+###########################################################################
+(...)
+{
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'courses',
+    component: CoursesComponent,
+    children: [
+      {
+        path: ':id', // www.example.pl/courses/1
+        component: CourseDetailComponent
+      }
+    ]
+  },
+(...)
+###########################################################################
+
+w widoku courses.component dodajemy selektor dla komponentów children oraz
+przycisk doklejajacy do adresu url wybrany paramer -> /courses/1
+###########################################################################
+<p>
+  Zacznij programować z naszymi kursami!
+</p>
+
+<ul>
+  <li *ngFor="let course of courses">
+    {{course.title}}
+		<button [routerLink]="[course.id]">Więcej</button>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+###########################################################################
+
+w course-detail.compinent.html
+###########################################################################
+<div>
+  {{course.title}} <br>
+  {{course.content}} <br>
+</div>
+###########################################################################
+
+po kliknieciu link juz sie dokleja, ale nigdzie nas nie przenosi, w konsoli 
+wyskakuja błedy
+
+w course-detail.compinent.ts potrzebujemy wstrzyknac ActivatedRoute
+który przechowuje cały routing stworzony w app.routing, trzeba sie 
+do niego dobrac
+###########################################################################
+import { Component, OnInit } from '@angular/core';
+import { Course, DataBaseService } from '../../data-base.service';
+import { ActivatedRoute, Params } from '@angular/router';
+
+@Component({
+  selector: 'app-course-detail',
+  templateUrl: './course-detail.component.html',
+  styleUrls: ['./course-detail.component.css']
+})
+export class CourseDetailComponent implements OnInit {
+
+  course: Course;
+
+  constructor(private dbService: DataBaseService, private route: ActivatedRoute) { }
+
+  ngOnInit() {
+    this.route.paramMap.subscribe((param: Params) => {
+      this.course = this.dbService.getCourseById(param.get('id'));
+    });
+  }
+
+}
+###########################################################################
+
+
+Odc 19.113    Ponowne użycie rout child
+---------------------------------------------------------------------------
+tworzymy dodatkowy komponent bedacy listą kursów - course-list.component
+
+czyscimy course.component.ts i html, zostaje tam tylko selektor w widoku:
+<router-outlet></router-outlet>
+
+przenosimy wszystko z  course.component.ts do nowego komponentu child
+###########################################################################
+<p>
+  Zacznij programować z naszymi kursami!
+</p>
+<!-- /courses/1 -->
+<ul>
+  <li *ngFor="let course of courses">
+    {{course.title}}
+    <button [routerLink]="[course.id]">Więcej</button>
+  </li>
+</ul>
+###########################################################################
+
+
+###########################################################################
+import { Component, OnInit } from '@angular/core';
+import { Course, DataBaseService } from '../../data-base.service';
+
+@Component({
+  selector: 'app-courses-list',
+  templateUrl: './courses-list.component.html',
+  styleUrls: ['./courses-list.component.css']
+})
+export class CoursesListComponent {
+
+  courses: Array<Course>;
+
+    constructor(private dbService: DataBaseService) { }
+
+    ngOnInit() {
+      this.dbService.getCourses().subscribe(list => {
+        this.courses = list;
+      });
+    }
+
+}
+###########################################################################
+
+edycja w routingu, dodanie nowego kononentu child. tworzymy pusa scieżke
+która startowo uruchomi konponent 
+###########################################################################
+(...)
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'courses',
+    component: CoursesComponent,
+    children: [
+      {
+        path: '', // www.example.pl/courses/
+        component: CoursesListComponent
+      },
+      {
+        path: ':id', // www.example.pl/courses/1
+        component: CourseDetailComponent
+      }
+    ]
+  },
+(...)
+###########################################################################
+
+dodajemy przycisk wróć w course-detail.compinent
+###########################################################################
+<div>
+  {{course.title}} <br>
+  {{course.content}} <br>
+  <button routerLink="/courses">Wróć</button>
+</div>
+###########################################################################
+
+
+Odc 19.114   Nawigacja po aplikacji przez Router
+---------------------------------------------------------------------------
+dodawanie przejscia z home.component do szczegółów wyswietlanego lodsowo kursu
+
+###########################################################################
+export class HomeComponent implements OnInit {
+
+  course: Course;
+
+  constructor(private dbService: DataBaseService, private router: Router) { }
+
+  ngOnInit() {
+    this.course = this.dbService.getRandomCoruse();
+  }
+
+  getCourse() {
+    this.router.navigate(['/courses', this.course.id]);
+  }
+
+}
+###########################################################################
+
+Pierwszy zakomentowany sposób to zbindowanie routerLisk
+drugi sposób to uzycie servisu - Router , musimy go wsstrzyknać
+###########################################################################
+<p>
+  Zobacz nasz najnowszy kurs!
+</p>
+
+{{course.title}}
+<!-- <button [routerLink]="['/courses', course.id]" >Sprawdź!</button> -->
+<button (click)="getCourse()" >Sprawdź!</button>
+ <!-- courses/1 -->
+
+###########################################################################
+
+
+Odc 19.115   Stylizowanie linków w routingu
+---------------------------------------------------------------------------
+dodawanie podświetlania menu w jakiej zakładce sie znajdujemy
+dodajemy routerLinkActive i podejemy mu styl jaki chcemu uzyć 
+routing załatwi reszte sam
+
+w app.component.html
+###########################################################################
+<h1>Routing w Angularze</h1>
+
+<nav>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+  <a routerLink="/courses" routerLinkActive="active">Kursy</a>
+  <a routerLink="/about" routerLinkActive="active">O nas</a>
+</nav>
+<router-outlet></router-outlet>
+###########################################################################
+
+
+Odc 19.116   Kod aplikacji z nauki routingu
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 20.117  Projekt "Lista zadań" - dodajemy routing
+---------------------------------------------------------------------------
+Przebudowa aplikacji pod routing
+
+
+
+Odc 20.118  Projekt "Lista zadań" - kod aktualnego projektu po routingu
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 21.119  Formularze template driven
+---------------------------------------------------------------------------
+W Angularze możemy implementować formularze na dwa sposoby. 
+Obydwa sposoby zostaną w kursie przedstawione. 
+Poniżej umieszczam informację o różnicach między tymi implementacjami.
+
+Template driven forms:
+
+   - łatwe w użyciu
+   - najlepsze do prostych formularzy
+   - konfiguracja po stronie widoku HTML
+   - mało kodu w komponencie
+   - bindowanie za pomocą two-way binding
+   - testowanie za pomocą testów jest bardzo trudne
+
+
+Reactive forms:
+
+   - trochę trudniejsze w użyciu
+   - dużo kodu w komponencie, mało w widoku HTML
+   - bardziej elastyczne, duże możliwości modyfikacji formularza
+   - możliwość dynamicznego dodawania elementów
+   - proste w testowaniu
+
+   
+Odc 21.120 - Template driven - wstęp  
+---------------------------------------------------------------------------
+Wikszosć formularza znajduje sie pos stronie html w widoku.
+
+about.compinent.html
+###########################################################################
+<h4>Template driven</h4>
+<form>
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input type="text" id="topic" name="topic" required>
+
+    <label for="message">Wiadomość:</label>
+    <textarea  rows="4" cols="50" id="message" name="message" required></textarea>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" email required>
+
+    <button type="submit">Wyslij</button>
+
+  </div>
+</form>
+###########################################################################
+
+about.compinent.ts
+###########################################################################
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-template-driven-form',
+  templateUrl: './template-driven-form.component.html',
+  styleUrls: ['./template-driven-form.component.css']
+})
+export class TemplateDrivenFormComponent implements OnInit {
+
+  constructor() {}
+
+  ngOnInit() {}
+}
+
+class TemplateMessage {
+  constructor(
+    public topic: string,
+    public message: string,
+    public name: string,
+    public email: string,
+
+  ) {}
+}
+###########################################################################
+
+
+Odc 21.121 - Użycie ngModel w formularzu
+---------------------------------------------------------------------------
+w appmodule.ts trzeba dodać w imports -> FormsModule
+jest to moduł dotyczący formularzy
+
+tworzymy obiekt do którego mozemy zbionowac formularz:
+message = new TemplateMessage();
+
+bindowanie dwustronne: 
+<input [(ngModel)]="message.topic" type="text" id="topic" name="topic" required>
+
+do przesłania nalezy uzyć eventu przygotowanego w angularze do formularzy:
+<form (ngSubmit)="onSubmit(conctactForm)" #conctactForm="ngForm">
+
+po przycisnieciu na wyslij uruchomiona zostanie metoda onSubmit()
+
+about.component.html
+###########################################################################
+<h4>Template driven</h4>
+<form (ngSubmit)="onSubmit(conctactForm)" #conctactForm="ngForm">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input [(ngModel)]="message.topic" type="text" id="topic" name="topic" required>
+
+    <label for="message">Wiadomość:</label>
+    <textarea [(ngModel)]="message.message" rows="4" cols="50" id="message" name="message" required></textarea>
+
+    <label for="name">Name:</label>
+    <input [(ngModel)]="message.name" type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input [(ngModel)]="message.email" type="email" id="email" name="email" email required>
+
+    <button type="submit">Wyslij</button>
+
+  </div>
+</form>
+###########################################################################
+
+about.compinent.ts
+###########################################################################
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-template-driven-form',
+  templateUrl: './template-driven-form.component.html',
+  styleUrls: ['./template-driven-form.component.css']
+})
+export class TemplateDrivenFormComponent implements OnInit {
+
+  constructor() {}
+
+  ngOnInit() {}
+  
+  onSubmit() {
+	console.log(this.message);
+  }
+}
+
+class TemplateMessage {
+  constructor(
+    public topic: string,
+    public message: string,
+    public name: string,
+    public email: string,
+
+  ) {}
+}
+###########################################################################
+
+
+Odc 21.122 - Dostęp do formularza przez ngForm
+---------------------------------------------------------------------------
+utworznie lokalnej  referencji #conctactForm="ngForm"  zbionowanej z ngForm:
+<form (ngSubmit)="onSubmit(conctactForm)" #conctactForm="ngForm">
+
+
+Odc 21.123 - Sprawdzenie poprawnego wypełnienia formularza
+---------------------------------------------------------------------------
+wyłaczenie przycisku wyslij gdy formularz nie jest zwalidowany:
+<button type="submit" [disabled]="!conctactForm.valid">Wyslij</button>
+
+dodawanie lokalnej referencji do kazdego pola w formularzu: ( #topic="ngModel" )
+zeby z tego korzystc kazde pole musi miec name (name="topic")->
+<input [(ngModel)]="message.topic" #topic="ngModel" type="text" id="topic" name="topic" required>
+
+mozeby dodać napis z tekstem Pole wymagane
+<div *ngIf="!topic.valid">Pole wymagane!</div>
+
+do lokalnej zmiennej topic (#topic="ngModel") mozemy sie dostac za 
+pomoacą: "*ngIf="!topic.valid"
+Przykład:
+<input [(ngModel)]="message.topic" #topic="ngModel" type="text" id="topic" name="topic" required>
+<div *ngIf="!topic.valid && topic.dirty">Pole wymagane!</div>
+
+obecnie jednak odrazu są wyświetlane divy z alertami
+
+
+Odc 21.124 -  Udoskonalenie walidacji formularza
+---------------------------------------------------------------------------
+w przesy lanym obiekcie ngForm znajduja sie takie wlasciwosci jak:
+-dirty - czy pole zostało zabrudzone - pole zostało wypełnione, a potem wyczyszczone
+-touched - sprawdzenie czy pole zostało juz dotniete 
+
+###########################################################################
+<label for="message">Wiadomość:</label>
+<textarea [(ngModel)]="message.message" #mes="ngModel" rows="4" cols="50" id="message" name="message" required minlength="50"></textarea>
+<div *ngIf="!mes.valid && mes.dirty">Pole wymagane!</div>
+###########################################################################
+
+Dodanie walidacji długości pola:
+###########################################################################
+<label for="message">Wiadomość:</label>
+<textarea [(ngModel)]="message.message" #mes="ngModel" rows="4" cols="50" id="message" name="message" required minlength="50"></textarea>
+<div *ngIf="!mes.valid && mes.dirty">Pole wymagane!</div>
+<div *ngIf="mes.errors && mes.errors.minlength">Za krótka wiadomosć</div>
+###########################################################################
+
+
+Odc 21.125 -  Walidowania pola e-mail
+---------------------------------------------------------------------------
+walidacja emaila w template driven - wystarczy zmienic typ inputa na email i 
+dopisac tak jak required -> email 
+zanjetpie dodac diva odpowiedzialnego za alert
+
+###########################################################################
+<label for="email">E-mail:</label>
+<input [(ngModel)]="message.email" #email="ngModel" type="email" id="email" name="email" email required>
+<div *ngIf="!email.valid && email.dirty">Pole wymagane!</div>
+<div *ngIf="email.errors && email.errors.email && email.dirty">Zły adres e-mail</div>
+###########################################################################
+
+
+Odc 21.126 -  Implementacja pola <select>
+---------------------------------------------------------------------------
+pole typu combo box 
+
+tablica w komponencie z danymi do wyboru: 
+courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+rozbudowanie klasy obsługujacej formularz
+###########################################################################
+class TemplateMessage {
+  constructor(
+    public topic?: string,
+    public message?: string,
+    public name?: string,
+    public email?: string,
+    public course = 'Angular',
+    public bot?: boolean
+  ) {}
+}
+###########################################################################
+
+w widoku:
+<label for="course">Który kurs jest najfajniejszy?</label>
+<select [(ngModel)]="message.course" id="course" name="course">
+   <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+</select>
+
+
+Odc 21.127 -  Implementacja radio button
+---------------------------------------------------------------------------
+Dodanie radio button
+
+<div>
+   <label for="bot">Jesteś botem?</label>
+   <input [(ngModel)]="message.bot" [value]="true" type="radio" name="bot" id="bot">Tak
+   <input [(ngModel)]="message.bot" [value]="false" type="radio" name="bot" id="bot">Nie
+</div>
+
+
+Odc 21.128 - Obsługa formularza po wysłaniu - reset
+---------------------------------------------------------------------------
+do teraz w widoku przesyłalismy referencje do metody po kliknieciu rzycisku wyslij
+<form (ngSubmit)="onSubmit(conctactForm)" #conctactForm="ngForm">
+
+teraz wstrzykniemy sobie formularz za pomoca elementu: @ViewChild 
+podajemy nazwe formularza w widoku w nawiasach 
+
+@ViewChild('conctactForm')
+conctactForm: NgForm;
+
+a w widoku zminiamy na:
+
+<form (ngSubmit)="onSubmit()" #conctactForm="ngForm">
+
+dodatkowo zmienimy metode onSubmit() i dadamy reset()
+reset tworzy nowy obiekt  i przekazuje go do metody:
+ this.conctactForm.resetForm(this.message);
+ która czyści formularz. meoda ma mozliwośc przekazania danch startowych.
+###########################################################################
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-template-driven-form',
+  templateUrl: './template-driven-form.component.html',
+  styleUrls: ['./template-driven-form.component.css']
+})
+export class TemplateDrivenFormComponent implements OnInit {
+
+@ViewChild('conctactForm')
+conctactForm: NgForm;
+
+  message = new TemplateMessage();
+  courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+  constructor() {}
+
+  ngOnInit() {}
+
+  onSubmit() {
+    console.log(this.message);
+    this.reset();
+  }
+
+  reset() {
+    this.message = new TemplateMessage();
+    this.conctactForm.resetForm(this.message);
+  }
+
+}
+class TemplateMessage {
+  constructor(
+    public topic?: string,
+    public message?: string,
+    public name?: string,
+    public email?: string,
+    public course = 'Angular',
+    public bot?: boolean
+  ) {}
+}
+###########################################################################
+
+###########################################################################
+<h4>Template driven</h4>
+<form (ngSubmit)="onSubmit()" #conctactForm="ngForm">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input [(ngModel)]="message.topic" #topic="ngModel" type="text" id="topic" name="topic" required>
+    <div *ngIf="!topic.valid && topic.dirty">Pole wymagane!</div>
+
+    <label for="message">Wiadomość:</label>
+    <textarea [(ngModel)]="message.message" #mes="ngModel" rows="4" cols="50" id="message" name="message" required minlength="50"></textarea>
+    <div *ngIf="!mes.valid && mes.dirty">Pole wymagane!</div>
+    <div *ngIf="mes.errors && mes.errors.minlength">Za krótka wiadomosć</div>
+
+    <label for="name">Name:</label>
+    <input [(ngModel)]="message.name" #name="ngModel" type="text" id="name" name="name" required>
+    <div *ngIf="!name.valid && name.dirty">Pole wymagane!</div>
+
+    <label for="email">E-mail:</label>
+    <input [(ngModel)]="message.email" #email="ngModel" type="email" id="email" name="email" email required>
+    <div *ngIf="!email.valid && email.dirty">Pole wymagane!</div>
+    <div *ngIf="email.errors && email.errors.email && email.dirty">Zły adres e-mail</div>
+
+    <label for="course">Który kurs jest najfajniejszy?</label>
+    <select [(ngModel)]="message.course" id="course" name="course">
+      <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+    </select>
+
+    <div>
+      <label for="bot">Jesteś botem?</label>
+      <input [(ngModel)]="message.bot" [value]="true" type="radio" name="bot" id="bot">Tak
+      <input [(ngModel)]="message.bot" [value]="false" type="radio" name="bot" id="bot">Nie
+    </div>
+
+    <button type="submit" [disabled]="!conctactForm.valid">Wyslij</button>
+    <button type="reset" (click)="reset()">Reset</button>
+  </div>
+</form>
+###########################################################################
+
+
+Odc 21.129 -  Kod przykładowej aplikacji z nauki Template Driven Forms
+---------------------------------------------------------------------------
+kod
+###########################################################################
+<h4>Template driven</h4>
+<form (ngSubmit)="onSubmit()" #conctactForm="ngForm">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input [(ngModel)]="message.topic" #topic="ngModel" type="text" id="topic" name="topic" required>
+    <div *ngIf="!topic.valid && topic.dirty">Pole wymagane!</div>
+
+    <label for="message">Wiadomość:</label>
+    <textarea [(ngModel)]="message.message" #mes="ngModel" rows="4" cols="50" id="message" name="message" required minlength="50"></textarea>
+    <div *ngIf="!mes.valid && mes.dirty">Pole wymagane!</div>
+    <div *ngIf="mes.errors && mes.errors.minlength">Za krótka wiadomosć</div>
+
+    <label for="name">Name:</label>
+    <input [(ngModel)]="message.name" #name="ngModel" type="text" id="name" name="name" required>
+    <div *ngIf="!name.valid && name.dirty">Pole wymagane!</div>
+
+    <label for="email">E-mail:</label>
+    <input [(ngModel)]="message.email" #email="ngModel" type="email" id="email" name="email" email required>
+    <div *ngIf="!email.valid && email.dirty">Pole wymagane!</div>
+    <div *ngIf="email.errors && email.errors.email && email.dirty">Zły adres e-mail</div>
+
+    <label for="course">Który kurs jest najfajniejszy?</label>
+    <select [(ngModel)]="message.course" id="course" name="course">
+      <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+    </select>
+
+    <div>
+      <label for="bot">Jesteś botem?</label>
+      <input [(ngModel)]="message.bot" [value]="true" type="radio" name="bot" id="bot">Tak
+      <input [(ngModel)]="message.bot" [value]="false" type="radio" name="bot" id="bot">Nie
+    </div>
+
+    <button type="submit" [disabled]="!conctactForm.valid">Wyslij</button>
+    <button type="reset" (click)="reset()">Reset</button>
+  </div>
+</form>
+###########################################################################
+
+###########################################################################
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-template-driven-form',
+  templateUrl: './template-driven-form.component.html',
+  styleUrls: ['./template-driven-form.component.css']
+})
+export class TemplateDrivenFormComponent implements OnInit {
+
+@ViewChild('conctactForm')
+conctactForm: NgForm;
+
+  message = new TemplateMessage();
+  courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+  constructor() {}
+
+  ngOnInit() {}
+
+  onSubmit() {
+    console.log(this.message);
+    this.reset();
+  }
+
+  reset() {
+    this.message = new TemplateMessage();
+    this.conctactForm.resetForm(this.message);
+  }
+
+}
+class TemplateMessage {
+  constructor(
+    public topic?: string,
+    public message?: string,
+    public name?: string,
+    public email?: string,
+    public course = 'Angular',
+    public bot?: boolean
+  ) {}
+}
+###########################################################################
+
+
+
+---------------------------------------------------------------------------
+Odc 22.130  Formularze Reactive Forms
+---------------------------------------------------------------------------
+tak jak dodawalismy do templet driven w app.module.ts - FormsModule, teraz
+trzeba dodać ReactiveFormsModule
+
+###########################################################################
+import { Component, OnInit } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+
+@Component({
+  selector: 'app-reactive-form',
+  templateUrl: './reactive-form.component.html',
+  styleUrls: ['./reactive-form.component.css']
+})
+export class ReactiveFormComponent implements OnInit {
+
+  contactForm: FormGroup;
+
+  courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+  constructor() { }
+
+  ngOnInit() {
+    this.contactForm = new FormGroup({});
+  }
+
+}
+
+class ReactiveMessage {
+  constructor(
+    public topic?: string,
+    public message?: string,
+    public name?: string,
+    public email?: string,
+    public course = 'Angular',
+    public bot?: boolean
+  ) {}
+}
+###########################################################################
+
+###########################################################################
+<h4>Reactive Form</h4>
+<form>
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input  type="text" id="topic" name="topic">
+
+
+    <label for="message">Wiadomość:</label>
+    <textarea rows="4" cols="50" id="message" ></textarea>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="course">Który kurs jest najfajniejszy?</label>
+    <select id="course" name="course">
+      <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+    </select>
+
+    <div>
+      <label for="bot">Jesteś botem?</label>
+      <input [value]="true" type="radio" name="bot" id="bot">Tak
+      <input [value]="false" type="radio" name="bot" id="bot">Nie
+    </div>
+
+    <button type="submit">Wyslij</button>
+    <button type="reset">Reset</button>
+  </div>
+</form>
+###########################################################################
+
+
+Odc 22.131   Używamy obiektu FormsGroup
+---------------------------------------------------------------------------
+Zaimplementowanie obiektu FormGrup tak zeby reprezentował formularz
+w obiekcie FormGrup tworzymy nazwy pól np id:
+
+
+###########################################################################
+ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null),
+      message: new FormControl(null),
+      email: new FormControl(null),
+      course: new FormControl(this.courses[0]),
+      bot: new FormControl(null)
+    });
+}
+###########################################################################
+
+
+Odc 22.132   Bindowanie FormsGroup z widokiem HTML
+---------------------------------------------------------------------------
+łaczymy GormGrup z widokiem
+
+w widoku w form dodajemy bindowanie: <form [formGroup]="contactForm">
+i ustalamy nazwe dla kazdego pola w formularzu dla FormGroup za pomocą: 
+formControlName="topic", formControlName="message"
+###########################################################################
+<h4>Reactive Form</h4>
+<form [formGroup]="contactForm">
+  <div style="display: inline-grid;">
+  
+    <label for="topic">Temat:</label>
+    <input  type="text" id="topic" name="topic" formControlName="topic">
+
+    <label for="message">Wiadomość:</label>
+    <textarea rows="4" cols="50" id="message" formControlName="message"></textarea>
+(...)
+###########################################################################
+
+
+Odc 22.133  Zapis danych z formularza
+---------------------------------------------------------------------------
+Przesyłanie danych  formularza z widoku do konponentu
+podobnie ja w TD dodajemy ngSubmit
+
+
+###########################################################################
+<h4>Reactive Form</h4>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input  type="text" id="topic" name="topic" formControlName="topic">
+(...)
+###########################################################################
+
+###########################################################################
+export class ReactiveFormComponent implements OnInit {
+
+  contactForm: FormGroup;
+  message = new ReactiveMessage();
+  courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+  constructor() { }
+
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null),
+      message: new FormControl(null),
+      name: new FormControl(null),
+      email: new FormControl(null),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true)
+    });
+  }
+
+  onSubmit() {
+    console.log(this.contactForm);
+    this.message.topic = this.contactForm.value.topic;
+    this.message.message = this.contactForm.value.message;
+    this.message.name = this.contactForm.value.name;
+    this.message.email = this.contactForm.value.email;
+    this.message.course = this.contactForm.value.course;
+    this.message.bot = this.contactForm.value.bot;
+    console.log(this.message);
+  }
+}
+###########################################################################
+
+można tez pobieranie dane w inny sposób z pola:
+	this.message.topic = this.contactForm.value.topic;
+
+na:
+    this.message.topic = this.contactForm.get('topic').value;
+
+	
+Odc 22.134  Walidacja formularza w Reactive Forms
+---------------------------------------------------------------------------
+###########################################################################
+ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null, Validators.required),
+      message: new FormControl(null, [Validators.required, Validators.minLength(50)]),
+      name: new FormControl(null, Validators.required),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true, Validators.required)
+    });
+}
+###########################################################################
+
+
+Odc 22.135  Obsługa błędów walidacji w HTML
+---------------------------------------------------------------------------
+
+###########################################################################
+<h4>Reactive Form</h4>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input  type="text" id="topic" name="topic" formControlName="topic">
+
+    <div *ngIf="contactForm.get('topic').invalid && contactForm.get('topic').dirty">Pole wymagane!</div>
+
+    <label for="message">Wiadomość:</label>
+    <textarea rows="4" cols="50" id="message" formControlName="message"></textarea>
+
+    <div *ngIf="contactForm.get('message').invalid && contactForm.get('message').dirty">Pole wymagane!</div>
+    <div *ngIf="contactForm.get('message').errors && contactForm.get('message').errors.minlength">Za krótka wiadomosć</div>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" formControlName="name">
+
+    <div *ngIf="contactForm.get('name').invalid && contactForm.get('name').dirty">Pole wymagane!</div>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" formControlName="email">
+
+    <div *ngIf="contactForm.get('email').invalid && contactForm.get('email').dirty">Pole wymagane!</div>
+    <div *ngIf="contactForm.get('email').errors && contactForm.get('email').errors.email &&contactForm.get('email').dirty">Zły adres e-mail</div>
+
+    <label for="course">Który kurs jest najfajniejszy?</label>
+    <select id="course" name="course" formControlName="course">
+      <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+    </select>
+
+    <div>
+      <label for="bot">Jesteś botem?</label>
+      <input [value]="true" type="radio" name="bot" id="bot" formControlName="bot">Tak
+      <input [value]="false" type="radio" name="bot" id="bot" formControlName="bot">Nie
+    </div>
+
+    <button type="submit" [disabled]="contactForm.invalid">Wyslij</button>
+    <button type="reset">Reset</button>
+  </div>
+</form>
+###########################################################################
+
+zeby nie świecziły błedy :
+  <div *ngIf="contactForm.get('message').errors && contactForm.get('message').errors['message'].minlength">Za krótka wiadomosć</div>
+  
+
+Odc 22.136  Używamy FormArray
+---------------------------------------------------------------------------
+Dynamiczne pola w formularzu
+
+###########################################################################
+<label for="questions">Czego chces sie jeszcze nauczyc?</label>
+  <div formArrayName="questions">
+    <div *ngFor="let question of contactForm.get('questions')['controls']; let i = index">
+      {{i+1}}<input class="m-1" type="text" [formControlName]="i">
+    </div>
+  </div>
+###########################################################################
+
+dodanie pola questions do onInit()
+###########################################################################
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null, Validators.required),
+      message: new FormControl(null, [Validators.required, Validators.minLength(50)]),
+      name: new FormControl(null, Validators.required),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true, Validators.required),
+      questions: new FormArray([new FormControl(null), new FormControl(null)])
+    });
+  }
+###########################################################################
+
+
+Odc 22.137  Dynamiczne dodawanie kontrolek za pomocą FormArray
+---------------------------------------------------------------------------
+###########################################################################
+<label for="questions">Czego chces sie jeszcze nauczyc?</label>
+<div formArrayName="questions">
+    <div *ngFor="let question of contactForm.get('questions')['controls']; let i = index">
+        {{i+1}}<input class="m-1" type="text" [formControlName]="i">
+    </div>
+    <button class="m-1" type="button" (click)="addQuestins()">Dodaj</button>
+</div>
+###########################################################################
+
+###########################################################################
+addQuestins() {
+    const arr = <FormArray>this.contactForm.get('questions');
+    arr.push(new FormControl(null));
+}
+###########################################################################
+
+
+Odc 22.138  Tworzenie własnego walidatora
+---------------------------------------------------------------------------
+stworzymy wlasny walidator sprawdzajacy czy questions nie zawieca zakazanego
+słowa
+
+dodajemy diva z alertem
+###########################################################################
+<label for="questions">Czego chces sie jeszcze nauczyc?</label>
+  <div formArrayName="questions">
+      <div *ngFor="let question of contactForm.get('questions')['controls']; let i = index">
+        {{i+1}}<input class="m-1" type="text" [formControlName]="i">
+      </div>
+      <div *ngIf="contactForm.get('questions').errors && contactForm.get('questions').errors['forbbidenCourse']">Zakazany kurs</div>
+      <button class="m-1" type="button" (click)="addQuestins()">Dodaj</button>
+  </div>
+###########################################################################
+
+dodajemy metode questionsValidator() i przekazyjemy jej referencje a 
+nie wywołanie w on oninit
+###########################################################################
+(...)
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null, Validators.required),
+      message: new FormControl(null, [Validators.required, Validators.minLength(50)]),
+      name: new FormControl(null, Validators.required),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true, Validators.required),
+      questions: new FormArray([new FormControl(null), new FormControl(null)], this.questionsValidator)
+    });
+  }
+
+  addQuestins() {
+    const arr = <FormArray>this.contactForm.get('questions');
+    arr.push(new FormControl(null));
+  }
+
+  questionsValidator(control: AbstractControl): ValidationErrors {
+    const arr = <[string]>control.value;
+    if (arr.includes('angularjs')) {
+      return { 'forbbidenCourse': true };
+    }
+  }
+(...)
+###########################################################################
+
+
+Odc 22.139  Resetowanie formularza
+---------------------------------------------------------------------------
+funkcja resetująca
+###########################################################################
+  onReset() {
+    this.contactForm.reset({
+      topic: 'fajny kurs',
+      course: this.courses[2]
+    });
+  }
+###########################################################################
+
+###########################################################################
+    <button type="button" (click)="onReset()">Reset</button>
+###########################################################################
+
+można użyc funkcji patchValue() która zmiemia tylko wybrane pola i 
+pozostawia reszte jak była
+
+###########################################################################
+onReset() {
+    this.contactForm.patchValue({
+      topic: 'fajny kurs',
+      course: this.courses[2]
+    });
+}
+###########################################################################
+
+jest jeszcze setValue ale trzeba podac mu wartosci dal wszystkich pól 
+
+
+Odc 22.140  Nadsłuchiwanie zmian w formularzu
+---------------------------------------------------------------------------
+
+###########################################################################
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null, Validators.required),
+      message: new FormControl(null, [Validators.required, Validators.minLength(50)]),
+      name: new FormControl(null, Validators.required),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true, Validators.required),
+      questions: new FormArray([new FormControl(null), new FormControl(null)], this.questionsValidator)
+    });
+
+	//przesylanie calego formularza 
+    this.contactForm.valueChanges.subscribe(value => {
+      console.log(value);
+    });
+
+	// przesylanie konkretnego pola
+    this.contactForm.get('topic').valueChanges.subscribe(value => {
+      console.log(value);
+    });
+
+	//przesyłanie statusu - valid invalid
+    this.contactForm.get('email').statusChanges.subscribe(value => {
+      console.log(value);
+    });
+
+  }
+###########################################################################
+
+
+Odc 22.141  Kod z przykładowej aplikacji z nauki Reactive Forms
+---------------------------------------------------------------------------
+###########################################################################
+<h4>Reactive Form</h4>
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div style="display: inline-grid;">
+    <label for="topic">Temat:</label>
+    <input type="text" id="topic" name="topic" formControlName="topic">
+
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('topic').invalid && contactForm.get('topic').dirty">Pole wymagane!</div>
+
+    <label for="message">Wiadomość:</label>
+    <textarea rows="4" cols="50" id="message" formControlName="message"></textarea>
+
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('message').invalid && contactForm.get('message').dirty">Pole wymagane!</div>
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('message').errors && contactForm.get('message').errors.minlength">Za krótka wiadomosć</div>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" formControlName="name">
+
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('name').invalid && contactForm.get('name').dirty">Pole wymagane!</div>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" formControlName="email">
+
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('email').invalid && contactForm.get('email').dirty">Pole wymagane!</div>
+    <div class="alert alert-danger m-1" role="alert" *ngIf="contactForm.get('email').errors && contactForm.get('email').errors.email &&contactForm.get('email').dirty">Zły adres e-mail</div>
+
+    <label for="course">Który kurs jest najfajniejszy?</label>
+    <select id="course" name="course" formControlName="course">
+      <option *ngFor="let course of courses" [value]="course">{{course}}</option>
+    </select>
+
+    <div>
+      <label for="bot">Jesteś botem?</label>
+      <input [value]="true" type="radio" name="bot" id="bot" formControlName="bot">Tak
+      <input [value]="false" type="radio" name="bot" id="bot" formControlName="bot">Nie
+    </div>
+
+    <label for="questions">Czego chces sie jeszcze nauczyc?</label>
+    <div formArrayName="questions">
+      <div *ngFor="let question of contactForm.get('questions')['controls']; let i = index">
+        {{i+1}}<input class="m-1" type="text" [formControlName]="i">
+      </div>
+      <div *ngIf="contactForm.get('questions').errors && contactForm.get('questions').errors['forbbidenCourse']">Zakazany kurs</div>
+      <button class="m-1" type="button" (click)="addQuestins()">Dodaj</button>
+    </div>
+
+    <button type="submit" [disabled]="contactForm.invalid">Wyslij</button>
+    <button type="button" (click)="onReset()">Reset</button>
+  </div>
+</form>
+###########################################################################
+
+###########################################################################
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators, FormArray, AbstractControl, ValidationErrors } from '@angular/forms';
+
+@Component({
+  selector: 'app-reactive-form',
+  templateUrl: './reactive-form.component.html',
+  styleUrls: ['./reactive-form.component.css']
+})
+export class ReactiveFormComponent implements OnInit {
+
+  contactForm: FormGroup;
+  message = new ReactiveMessage();
+  courses = ['Angular', 'JavaFx', 'Java8', 'OrmLite'];
+
+  constructor() { }
+
+  ngOnInit() {
+    this.contactForm = new FormGroup({
+      topic: new FormControl(null, Validators.required),
+      message: new FormControl(null, [Validators.required, Validators.minLength(50)]),
+      name: new FormControl(null, Validators.required),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      course: new FormControl(this.courses[1]),
+      bot: new FormControl(true, Validators.required),
+      questions: new FormArray([new FormControl(null), new FormControl(null)], this.questionsValidator)
+    });
+
+    this.contactForm.valueChanges.subscribe(value => {
+      console.log(value);
+    });
+
+    // this.contactForm.get('topic').valueChanges.subscribe(value => {
+    //   console.log(value);
+    // });
+
+    // this.contactForm.get('email').statusChanges.subscribe(value => {
+    //   console.log(value);
+    // });
+
+  }
+
+  addQuestins() {
+    const arr = <FormArray>this.contactForm.get('questions');
+    arr.push(new FormControl(null));
+  }
+
+  questionsValidator(control: AbstractControl): ValidationErrors {
+    const arr = <[string]>control.value;
+    if (arr.includes('angularjs')) {
+      return { 'forbbidenCourse': true };
+    }
+  }
+
+  onReset() {
+    this.contactForm.reset({
+      course: this.courses[0]
+    });
+  }
+
+  onSubmit() {
+    console.log(this.contactForm);
+    this.message.topic = this.contactForm.value.topic;
+    this.message.message = this.contactForm.value.message;
+    this.message.name = this.contactForm.value.name;
+    this.message.email = this.contactForm.value.email;
+    this.message.course = this.contactForm.value.course;
+    this.message.bot = this.contactForm.value.bot;
+    this.onReset();
+  }
+
+}
+
+class ReactiveMessage {
+  constructor(
+    public topic?: string,
+    public message?: string,
+    public name?: string,
+    public email?: string,
+    public course = 'Angular',
+    public bot?: boolean
+  ) { }
+}
+###########################################################################
+
+
+
+---------------------------------------------------------------------------
+Odc 23.142  Projekt "Lista zadań" - implementacja formularza
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 24.147  Autoryzacja użytkownika w Angularze
+---------------------------------------------------------------------------
+
+W tym dziale zajmiemy się obsługą rejestracji i autentykacji użytkowników 
+z pomocą Firebase. Poznamy tylko podstawy Firebase, ponieważ nie jest to 
+tematyka tego kursu. Ta wiedza wystarczy nam do tego, aby wprowadzić do 
+naszej aplikacji rejestrację i logowanie użytkowników.
+
+Autoryzacja użytkowników w Firebase działa na zasadzie JSON Web Token. 
+Więcej o tym standardzie znajdziesz tutaj: https://jwt.io/introduction/.
+
+Jak to działa w skrócie?
+
+Po rejestracji lub poprawnym zalogowaniu Firebase przesyła do nas dane 
+użytkownika wraz z jego tokenem. Token ten przetrzymywany jest po stronie 
+przeglądarki i służy do uwierzytelniania się w serwerze Firebase, za każdym 
+razem gdy chcemy dokonać jakiejś akcji. 
+
+Podobnie działają inne systemy oparte np na platformie .Net czy Java Spring. 
+Obecnie JWT jest bardzo popularnym standardem obsługującym autoryzację 
+użytkownika na serwerze. Zachęcam wszystkich do zgłębienia wiedzy o JWT na 
+stronie https://jwt.io/introduction/
+
+
+Odc 24.148  Przygotowanie Firebase do rejestracji i logowania użytkowników
+---------------------------------------------------------------------------
+dodawanie konta i projektu w firabase
+do angulara trzeba doinstalowac paczke do firebase - AngularFire
+npm install firebase angularfire2 --save
+
+w app.module. ts dodajemy - const config
+w tablicy import dodajemy AngularFireModule i podejemy mu inicjalizacje:
+###########################################################################
+  const config = {
+    apiKey: "AIzaSyCN1dj6K1T7IcoMS6PEHMHQSpUB3IA2O60",
+    authDomain: "rodzinne-wydatki.firebaseapp.com",
+    databaseURL: "https://rodzinne-wydatki.firebaseio.com",
+    projectId: "rodzinne-wydatki",
+    storageBucket: "rodzinne-wydatki.appspot.com",
+    messagingSenderId: "736247092307"
+  };
+  firebase.initializeApp(config);
+
+(...)
+  
+    imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(config),
+    AngularFireAuthModule
+  ],
+  (...)
+  
+###########################################################################
+
+
+
+Odc 24.149  Tworzymy formatkę do logowania
+---------------------------------------------------------------------------
+
+
+
+Odc 24.150  Implementujemy serwis obsługujący logowanie i rejestrację
+---------------------------------------------------------------------------
+
+
+
+Odc 24.151  Implementujemy proces rejestracji
+---------------------------------------------------------------------------
+
+
+
+Odc 24.152  Implementujemy proces wylogowania
+---------------------------------------------------------------------------
+
+
+
+Odc 24.153  Implementujemy proces logowania
+---------------------------------------------------------------------------
+
+
+
+Odc 24.154  Zarządzanie stanem aplikacji
+---------------------------------------------------------------------------
+
+
+
+Odc 24.155  Sterowanie dostępem za pomocą canActivate
+---------------------------------------------------------------------------
+
+
+
+Odc 24.156  Sterowanie dostępem za pomocą canActivateChild
+---------------------------------------------------------------------------
+
+
+
+Odc 24.157  Mały trik z routingiem :)
+---------------------------------------------------------------------------
+
+
+
+Odc 24.158  Kod przykładowej aplikacji z nauki autoryzacji użytkownika
+---------------------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------
+Odc 25.159  Projekt "Lista zadań" - dodajemy rejestrację użytkowników
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 26.163  Podział aplikacji na moduły
+---------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------
+Odc 27.175  Tworzenie wersji produkcyjnej
+---------------------------------------------------------------------------
+
+
+
+
+
+
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+praca z konsolą :
+
+sciagniecie projektu z gita 
+	-windows + r
+	-cmd
+	-przechodzimy do wybranego folderu
+	-cd\
+	-cd www
+	-git clone https://github.com/patricoos/AngularKursNotatki.git
+
+Zmiany w projekcie:
+	-zapisujemy zmiany w pliku
+	-git add .
+	-git commit -m "zmiana 123"
+	-git push origin master
+	
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+
+
+
+Do przerobienia jeszce raz 48, 50, 71, 74, 90, 91, 93, 95
+
+
+
+
+
+
+Projekt :
+
+logowanie
+dodanie rodziny/ dołaczenie do rodziny
+dodanie wydatku
+lista Tw wydatków
+lista wydatków rodziny
+
+
+logowanie
+home
+dodaj rodzine
+dodaj
