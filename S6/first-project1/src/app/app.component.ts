@@ -9,6 +9,9 @@ import { Task } from './task';
 }) 
 
 export class AppComponent {
+  editMode = false;
+  taskName = 'Sugerowane zadanie codzienne: odkurzanie';
+  taskDate = '';
   config?: Foo;
   tasks: Task[] = [
     {
@@ -36,6 +39,41 @@ export class AppComponent {
         date: '2022',
       };
     }, 500);
+  }
+
+  clearTasks() {
+    this.tasks = [];
+  }
+
+  createTask() {
+    const task: Task = {
+      name: this.taskName,
+      deadline: this.taskDate,
+      done: false,
+    };
+    this.tasks.push(task);
+    this.taskName = '';
+    this.taskDate = '';
+  }
+
+  switchEditMode(){
+    this.editMode = !this.editMode;
+  }
+
+  markTaskAsDone(task: Task) {
+    task.done = true;
+    this.sortTasks();
+  }
+
+  deleteTask(task: Task) {
+    this.tasks = this.tasks.filter(e => e !== task);
+    this.sortTasks();
+  }
+
+  private sortTasks() {
+    this.tasks = this.tasks.sort((a: Task, b: Task) =>
+      a.done === b.done ? 0 : a.done ? 1 : -1
+    );
   }
 }
 
