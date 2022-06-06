@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+div.col {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  div.container {
+    margin-top: 20px;
+  }
+  

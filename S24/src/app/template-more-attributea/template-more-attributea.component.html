@@ -1,0 +1,24 @@
+<div class="container">
+    <h5>{{ title }}</h5>
+    <div class="row">
+      <div class="col s6 indigo">
+        1
+        <ng-content select="[first][button]"></ng-content>
+      </div>
+      <div class="col s6 purple">
+        2
+        <ng-content select="[second][button]"></ng-content>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6 grey">
+        3
+        <ng-content select="[third][button]"></ng-content>
+      </div>
+      <div class="col s6 lime">
+        4
+        <ng-content select="[fourth][button]"></ng-content>
+      </div>
+    </div>
+  </div>
+  
