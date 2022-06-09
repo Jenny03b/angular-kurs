@@ -4,17 +4,17 @@ export const QUOTES: Quotation[] = [
   {
     author: 'Jonathan Carroll',
     sentence: 'To, że milczę, nie znaczy, że nie mam nic do powiedzenia.',
-    votes: -4,
+    votes: 0,
   },
   {
     author: 'Suzanne Collins',
     sentence: 'Masz w sobie tyle uroku co zdechła dżdżownica.',
-    votes: 2,
+    votes: 0,
   },
   {
     author: 'George Eliot',
     sentence: 'Nigdy nie jest za późno, by stać się tym, kim chcemy być.',
-    votes: 1,
+    votes: 0,
   },
   {
     author: 'Stanisław Lem',
@@ -24,7 +24,7 @@ export const QUOTES: Quotation[] = [
   {
     author: 'Tove Jansson',
     sentence: 'Mówienie tak bardzo przeszkadza w myśleniu.',
-    votes: -8,
+    votes: 0,
   },
   {
     author: 'Peter Lippert',
